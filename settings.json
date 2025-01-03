@@ -1,0 +1,211 @@
+{
+  // NOTE: remember to always change the repeat rate and friction of the keyboard in the OS's keyboard settings. Low delay for repeting and fast repetting is best for snapiness
+
+  // CUSTOM THEME COLORS
+  "workbench.colorCustomizations": {
+    "statusbar.debuggingbackground": "#000000",
+    "statusbar.debuggingforeground": "#ffffff",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.border": "#000000",
+    "statusBar.background": "#000000",
+    "editor.background": "#dfdfdf",
+    "editor.selectionBackground": "#01d08f3c",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
+    "statusBar.debuggingForeground": "#ffffff"
+  },
+
+  // TOKENS
+
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      // SYSTEM BLUE
+      {
+        "scope": [
+          "entity.name.tag",
+          "support.class.component",
+          "support.class.component.js",
+          "entity.name.function.js",
+          "storage.type.js",
+          "meta.var.expr.js",
+          "keyword.control.flow",
+          "keyword.control",
+          "keyword.control.import",
+          "keyword.control.default",
+          "keyword.control.export",
+          "constant.language",
+          "punctuation.definition.template-expression",
+          "storage.type.function.js"
+        ],
+        "settings": {
+          "foreground": "#007bfe"
+        }
+      },
+
+      // RED
+      {
+        "scope": ["entity.name.function.js"],
+        "settings": {
+          "foreground": "#b60202"
+        }
+      },
+
+      // PURPLE (THE PPPEOPPPLE)
+      {
+        "scope": [
+          "variable.parameter.js",
+          "meta.parameter.object-binding-pattern.js",
+          "meta.parameters.js",
+          "variable.other.property.js",
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "foreground": "#8c01b3"
+        }
+      },
+
+      // BLACK
+      {
+        "scope": [
+          "variable.other.constant.js",
+          "meta.definition.variable.js",
+          "meta.var-single-variable.expr.js",
+          "meta.var.expr.js",
+          "variable.other.object.js",
+          "constant.numeric",
+          "meta.jsx punctuation.definition.tag",
+          "punctuation.section.embedded",
+          "punctuation.definition.tag"
+        ],
+        "settings": {
+          "foreground": "#000000"
+        }
+      },
+
+      // GREEN
+      {
+        "scope": [
+          "string",
+          "support.type.property-name.json.comments",
+          "string.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "meta.structure.array.json.comments",
+          "meta.structure.dictionary.value.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "meta.structure.dictionary.value.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "source.json.comments",
+          "foreground",
+          "source.json",
+          "meta.structure.dictionary.json",
+          "meta.structure.dictionary.value.json",
+          "meta.structure.dictionary.json",
+          "meta.structure.dictionary.value.json",
+          "meta.structure.dictionary.json",
+          "support.type.property-name.json"
+        ],
+        "settings": {
+          "foreground": "#03b149"
+        }
+      }
+    ]
+  },
+
+  // VIM EXTENSION
+  "vim.useSystemClipboard" : true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color":	"rgba(1, 142, 142, 0.2)",
+  "vim.highlightedyank.duration":	200,
+
+
+  // GENERAL CONFIGS
+  "editor.cursorSmoothCaretAnimation": "off", "editor.tabCompletion": "off",
+  "editor.parameterHints.enabled": false,
+  "terminal.integrated.fontSize": 18,
+  "editor.codeLens": false,
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.glyphMargin": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.columnSelection": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": true,
+  "editor.formatOnType": true,
+  "editor.mouseWheelZoom": true,
+  "extensions.ignoreRecommendations": false,
+  "debug.terminal.clearBeforeReusing": true,
+  //SCROLL BAR
+  "editor.scrollbar.horizontal": "hidden",
+  // "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "workbench.sideBar.location": "left",
+  "zenMode.centerLayout": false,
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "zenMode.hideStatusBar": false,
+  "zenMode.fullScreen": false,
+  "editor.cursorWidth": 3,
+  "workbench.editor.enablePreview": false,
+  "editor.guides.highlightActiveIndentation": "always",
+  "scm.diffDecorationsGutterAction": "none",
+  "scm.diffDecorationsGutterPattern": {
+    "modified": false
+  },
+  "testing.gutterEnabled": false,
+  "scm.diffDecorationsGutterWidth": 5,
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "scm.diffDecorations": "none",
+  "editor.minimap.enabled": false,
+  "files.autoSave": "off",
+  "editor.smoothScrolling": false,
+  "breadcrumbs.enabled": false,
+  "vim.autoindent": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "workbench.editor.tabActionCloseVisibility": false,
+  "explorer.confirmDragAndDrop": false,
+  "git.enableStatusBarSync": false,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "telemetry.telemetryLevel": "off",
+  "editor.stickyScroll.enabled": false,
+  "window.density.editorTabHeight": "compact",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "editor.cursorBlinking": "solid",
+  "editor.wordWrap": "on",
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": -3,
+  "editor.formatOnSave": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vs-browser.localProxyServer.port": 3000,
+  "zenMode.showTabs": "none",
+  "workbench.colorTheme": "Tokyo Night Light",
+
+  // Ignore "Node Modules" folder to increase performance
+  "files.exclude": {
+    "node_modules": true
+  },
+  "search.exclude": {
+    "node_modules": true
+  }
+}
