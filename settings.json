@@ -115,7 +115,7 @@
   "vim.useSystemClipboard" : true,
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color":	"rgba(1, 142, 142, 0.2)",
-  "vim.highlightedyank.duration":	200,
+  "vim.highlightedyank.duration":	250,
 
 
   // GENERAL CONFIGS
