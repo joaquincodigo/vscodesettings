@@ -1,0 +1,13 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "oem_5",
+		"command": "workbench.action.toggleZenMode",
+		"when": "!isAuxiliaryWindowFocusedContext"
+	},
+	{
+		"key": "ctrl+k z",
+		"command": "-workbench.action.toggleZenMode",
+		"when": "!isAuxiliaryWindowFocusedContext"
+	}
+]

@@ -1,0 +1,19 @@
+body {
+	background-color: lightgreen;
+}
+
+.row {
+	border: 1px solid red;
+	display: flex;
+	flex-direction: row;
+}
+
+.cell {
+	width: 10px;	
+	height: 10px;	
+}
+
+.empty {
+	background-color: black;
+}
+

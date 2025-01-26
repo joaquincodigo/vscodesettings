@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+
+
+
+
+
+
+
+
+
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #E0FBFC;
+      color: #3D5A80;
+      font-family: "Amatic SC";
+    }
+
+    h1 {
+      margin: 0px;
+    }
+
+    button {
+      background-color: #98C1D9;
+      color: #3D5A80;
+      border: 0px;
+      border-radius: 4px;
+      width: 60px;
+      height: 50px;
+      font-family: "Amatic SC";
+      font-size: 20px;
+      font-weight: 900;
+    }
+
+    .container {
+      padding: 20px;
+    }
+
+    .upper-container {
+      /* background-color: red; */
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .expense-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .expense-item {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 5px;
+    }
+
+    .add-expense-form input {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 5px;
+    }
+
+    .add-expense-form button {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body>
+  <div id="home" class="container">
+    <div class="upper-container">
+      <div class="tile-container">
+        <h1>Expense</h1>
+        <h1>Tracker</h1>
+      </div>
+      <button onclick="clearAll()">Clear</button>
+    </div>
+    <h2>Total Expenses: <span id="total-expenses">0</span></h2>
+    <ul id="expense-list" class="expense-list"></ul>
+    <button onclick="goToAddExpense()">+</button>
+  </div>
+
+  <div id="add-expense" class="container" style="display: none;">
+    <h1>Add Expense</h1>
+    <form id="add-expense-form" class="add-expense-form">
+      <input type="number" id="expense" placeholder="Expense" required>
+      <input type="text" id="note" placeholder="Note (optional)">
+      <button type="submit">Add Expense</button>
+      <button type="button" onclick="goHome()">Cancel</button>
+    </form>
+  </div>
+
+  <script>
+    // Functions to handle adding expenses and updating UI
+    function addExpense() {
+      const expenseInput = document.getElementById('expense');
+      const noteInput = document.getElementById('note');
+
+      const expense = parseFloat(expenseInput.value);
+      const note = noteInput.value.trim();
+
+      if (!expense || isNaN(expense)) {
+        alert('Please enter a valid expense amount.');
+        return;
+      }
+
+      const expenses = JSON.parse(localStorage.getItem('expenses')) || [];
+      expenses.push({ amount: expense, note: note });
+      localStorage.setItem('expenses', JSON.stringify(expenses));
+
+      expenseInput.value = '';
+      noteInput.value = '';
+
+      updateUI();
+      goHome();
+    }
+
+    function clearAll() {
+      localStorage.removeItem('expenses');
+      updateUI();
+    }
+
+    function updateUI() {
+      const expenses = JSON.parse(localStorage.getItem('expenses')) || [];
+      const totalExpenses = expenses.reduce((acc, curr) => acc + curr.amount, 0);
+
+      document.getElementById('total-expenses').textContent = totalExpenses.toFixed(2);
+
+      const expenseList = document.getElementById('expense-list');
+      expenseList.innerHTML = '';
+      expenses.forEach(expense => {
+        const li = document.createElement('li');
+        li.textContent = `Expense: $${expense.amount.toFixed(2)} ${expense.note ? `- Note: ${expense.note}` : ''}`;
+        expenseList.appendChild(li);
+      });
+    }
+
+    function goToAddExpense() {
+      document.getElementById('home').style.display = 'none';
+      document.getElementById('add-expense').style.display = 'block';
+    }
+
+    function goHome() {
+      document.getElementById('add-expense').style.display = 'none';
+      document.getElementById('home').style.display = 'block';
+    }
+
+    // Event listener for form submission
+    document.getElementById('add-expense-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      addExpense();
+    });
+
+    // Initial UI update
+    updateUI();
+  </script>
+</body>
+
+
+</html>

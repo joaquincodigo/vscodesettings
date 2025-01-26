@@ -1,0 +1,19 @@
+/**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+
+var twoSum = function (nums, target) {
+	for (let i = 0; i < nums.lenght; i++) {
+		for (let j = 0; j < nums.lenght; j++) {
+			console.log(i, j)
+			if ((nums[i] + nums[j]) === target) {
+				let indexes = [i, j]
+				return indexes
+			}
+		}
+	}
+}1. Two Sum
+
+var twoSum = function (nums, target)

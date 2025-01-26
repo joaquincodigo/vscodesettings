@@ -1,0 +1,11 @@
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+
+function isPalindrome(x) {
+
+};
+
+console.log(isPalindrome(121));
+console.log(isPalindrome(122));

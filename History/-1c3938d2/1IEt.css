@@ -1,0 +1,47 @@
+@font-face {
+	font-family: PokemonGameboy;
+	src: url('../../../public/fonts/PokemonGameboy.ttf') format('truetype'),
+}
+
+body {
+	font-family: 'PokemonGameboy', sans-serif;
+	background-image: url('../../../public/images/beach-background.png');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.container {
+	display: flex;
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-image: url('../../../public/images/bg2.png');
+	background-size: 100%;
+	background-position: center;
+}
+
+.card-container {
+	display: flex;
+	width: 250px;
+	height: 400px;
+	justify-content: center;
+	align-items: center;
+	/* background-color: #e41a1a; */
+	box-sizing: border-box;
+	padding: 15px;
+}
+
+.search-container {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	height: 400px;
+	/* background-color: #e41a1a; */
+	box-sizing: border-box;
+	padding: 15px;
+}

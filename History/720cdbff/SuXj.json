@@ -1,0 +1,382 @@
+{
+  // NOTE: remember to always change the repeat rate and friction of the keyboard in the OS's keyboard settings. Low delay for repeting and fast repetting is best for snapiness
+
+  // ----------------------------------------
+  //  +-+-+-+-+-+-+-+
+  //  + LIGHT THEME +
+  //  +-+-+-+-+-+-+-+
+  //
+  // LIGHT WORKBENCH COLORS
+  // "workbench.colorCustomizations": {
+  //   "statusbar.debuggingbackground": "#000000",
+  //   "statusbar.debuggingforeground": "#ffffff",
+  //   "statusBar.foreground": "#ffffff",
+  //   "statusBar.border": "#000000",
+  //   "statusBar.background": "#000000",
+  //   "editor.background": "#dfdfdf",
+  //   "editor.selectionBackground": "#01d08f3c",
+  //   "statusBar.noFolderBackground": "#005f5f",
+  //   "statusBar.debuggingBackground": "#005f5f",
+  //   "statusBar.debuggingForeground": "#ffffff"
+  // },
+  //
+  // // LIGHT TOKENS
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     // System Blue
+  //     {
+  //       "scope": [
+  //         "entity.name.tag",
+  //         "support.class.component",
+  //         "support.class.component.js",
+  //         "entity.name.function.js",
+  //         "storage.type.js",
+  //         "meta.var.expr.js",
+  //         "keyword.control.flow",
+  //         "keyword.control",
+  //         "keyword.control.import",
+  //         "keyword.control.default",
+  //         "keyword.control.export",
+  //         "constant.language",
+  //         "punctuation.definition.template-expression",
+  //         "storage.type.function.js"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#007bfe"
+  //       }
+  //     },
+
+  //     // Blood Red
+  //     {
+  //       "scope": ["entity.name.function.js"],
+  //       "settings": {
+  //         "foreground": "#b60202"
+  //       }
+  //     },
+
+  //     // Purple (THE PPPEOPPPLE)
+  //     {
+  //       "scope": [
+  //         "variable.parameter.js",
+  //         "meta.parameter.object-binding-pattern.js",
+  //         "meta.parameters.js",
+  //         "variable.other.property.js",
+  //         "entity.other.attribute-name"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#8c01b3"
+  //       }
+  //     },
+
+  //     // Black
+  //     {
+  //       "scope": [
+  //         "variable.other.constant.js",
+  //         "meta.definition.variable.js",
+  //         "meta.var-single-variable.expr.js",
+  //         "meta.var.expr.js",
+  //         "variable.other.object.js",
+  //         "constant.numeric",
+  //         "meta.jsx punctuation.definition.tag",
+  //         "punctuation.section.embedded",
+  //         "punctuation.definition.tag"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#000000"
+  //       }
+  //     },
+
+  //     // Green
+  //     {
+  //       "scope": [
+  //         "string",
+  //         "support.type.property-name.json.comments",
+  //         "string.json.comments",
+  //         "meta.structure.dictionary.json.comments",
+  //         "meta.structure.array.json.comments",
+  //         "meta.structure.dictionary.value.json.comments",
+  //         "meta.structure.dictionary.json.comments",
+  //         "meta.structure.dictionary.value.json.comments",
+  //         "meta.structure.dictionary.json.comments",
+  //         "source.json.comments",
+  //         "foreground",
+  //         "source.json",
+  //         "meta.structure.dictionary.json",
+  //         "meta.structure.dictionary.value.json",
+  //         "meta.structure.dictionary.json",
+  //         "meta.structure.dictionary.value.json",
+  //         "meta.structure.dictionary.json",
+  //         "support.type.property-name.json"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#03b149"
+  //       }
+  //     }
+  //   ]
+  // },
+  // ----------------------------------------
+
+
+
+
+  // ----------------------------------------
+  //  +-+-+-+-+-+-+-+
+  //  + DARK THEME  +
+  //  +-+-+-+-+-+-+-+
+  //
+  // LIGHT WORKBENCH COLORS
+  "workbench.colorTheme": "Default Dark Modern",
+  //
+  // DARK WORKBENCH COLORS
+  "workbench.colorCustomizations": {
+    "statusbar.debuggingbackground": "#000000",
+    "statusbar.debuggingforeground": "#ffffff",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.border": "#000000",
+    "statusBar.background": "#000000",
+    "editor.background": "#131229",
+    "editor.selectionBackground": "#0124d03c",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f",
+    "statusBar.debuggingForeground": "#ffffff"
+  },
+  // DARK TOKENS
+  // "editor.tokenColorCustomizations": {
+  //   "textMateRules": [
+  //     // System Blue
+  //     {
+  //       "scope": [
+  //         "entity.name.tag",
+  //         "support.class.component",
+  //         "support.class.component.js",
+  //         "entity.name.function.js",
+  //         "storage.type.js",
+  //         "meta.var.expr.js",
+  //         "keyword.control.flow",
+  //         "keyword.control",
+  //         "keyword.control.import",
+  //         "keyword.control.default",
+  //         "keyword.control.export",
+  //         "constant.language",
+  //         "punctuation.definition.template-expression",
+  //         "storage.type.function.js"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#007bfe"
+  //       }
+  //     },
+
+  //     // Blood Red
+  //     {
+  //       "scope": ["entity.name.function.js"],
+  //       "settings": {
+  //         "foreground": "#b60202"
+  //       }
+  //     },
+
+  //     // Purple (THE PPPEOPPPLE)
+  //     {
+  //       "scope": [
+  //         "variable.parameter.js",
+  //         "meta.parameter.object-binding-pattern.js",
+  //         "meta.parameters.js",
+  //         "variable.other.property.js",
+  //         "entity.other.attribute-name"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#8c01b3"
+  //       }
+  //     },
+
+  //     // Black
+  //     {
+  //       "scope": [
+  //         "variable.other.constant.js",
+  //         "meta.definition.variable.js",
+  //         "meta.var-single-variable.expr.js",
+  //         "meta.var.expr.js",
+  //         "variable.other.object.js",
+  //         "constant.numeric",
+  //         "meta.jsx punctuation.definition.tag",
+  //         "punctuation.section.embedded",
+  //         "punctuation.definition.tag"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#000000"
+  //       }
+  //     },
+
+  //     // Green
+  //     {
+  //       "scope": [
+  //         "string",
+  //         "support.type.property-name.json.comments",
+  //         "string.json.comments",
+  //         "meta.structure.dictionary.json.comments",
+  //         "meta.structure.array.json.comments",
+  //         "meta.structure.dictionary.value.json.comments",
+  //         "meta.structure.dictionary.json.comments",
+  //         "meta.structure.dictionary.value.json.comments",
+  //         "meta.structure.dictionary.json.comments",
+  //         "source.json.comments",
+  //         "foreground",
+  //         "source.json",
+  //         "meta.structure.dictionary.json",
+  //         "meta.structure.dictionary.value.json",
+  //         "meta.structure.dictionary.json",
+  //         "meta.structure.dictionary.value.json",
+  //         "meta.structure.dictionary.json",
+  //         "support.type.property-name.json"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#03b149"
+  //       }
+  //     }
+  //   ]
+  // },
+  // ----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // VIM EXTENSION
+  "vim.useSystemClipboard": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(1, 142, 142, 0.2)",
+  "vim.highlightedyank.duration": 300,
+  "vim.foldfix": true,
+  "editor.cursorSurroundingLines": 500,
+  "vim.smartRelativeLine": false,
+  "vim.autoindent": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["/"],
+      "commands": ["actions.find"]
+    }
+  ],
+
+  // FONT
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.fontFamily": "JetBrains Mono",
+
+  // EDITOR
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.tabCompletion": "off",
+  "editor.parameterHints.enabled": false,
+  "editor.codeLens": false,
+  "editor.glyphMargin": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.columnSelection": false,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": true,
+  "editor.formatOnType": true,
+  "editor.mouseWheelZoom": true,
+  "editor.cursorWidth": 3,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.formatOnSave": false,
+  "editor.lineNumbers": "on",
+  "editor.cursorBlinking": "solid",
+  "editor.wordWrap": "on",
+  "editor.stickyScroll.enabled": false,
+  "editor.guides.highlightActiveIndentation": "always",
+  "editor.smoothScrolling": false,
+  "editor.stickyScroll.scrollWithEditor": false,
+  "testing.gutterEnabled": false,
+
+  //TERMINAL
+  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "debug.terminal.clearBeforeReusing": true,
+
+  //SCROLL BAR
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 8,
+  "editor.scrollbar.horizontalScrollbarSize": 8,
+  // "editor.scrollbar.vertical": "hidden",
+
+  // WORKBENCH
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "left",
+  "workbench.editor.splitInGroupLayout": "vertical",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.tree.enableStickyScroll": false,
+  "workbench.layoutControl.enabled": false,
+  "breadcrumbs.enabled": false,
+
+  // ZEN MODE
+  "zenMode.hideStatusBar": false,
+  "zenMode.fullScreen": false,
+  "zenMode.showTabs": "none",
+  "zenMode.centerLayout": false,
+
+  // SOURCE CONTROL MANAGMENT
+  "scm.diffDecorationsGutterWidth": 5,
+  "scm.diffDecorationsGutterVisibility": "hover",
+  "scm.diffDecorations": "none",
+  "scm.diffDecorationsGutterAction": "none",
+  "scm.diffDecorationsGutterPattern": {
+    "modified": false
+  },
+  "git.enableStatusBarSync": false,
+
+  // WINDOW
+  "window.customTitleBarVisibility": "never",
+  "window.titleBarStyle": "native",
+  "window.menuBarVisibility": "toggle",
+  "window.zoomLevel": -3,
+  "window.density.editorTabHeight": "compact",
+  "window.commandCenter": false,
+
+  // PRETTIER
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  // EXPLORER
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // NODE MODULES (exclude them for increased performance)
+  "files.exclude": {
+    "node_modules": true
+  },
+  "search.exclude": {
+    "node_modules": true
+  },
+
+  // OTHER
+  "extensions.ignoreRecommendations": false, // This allows VSCode to show suggestions for different file types
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "off",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "telemetry.telemetryLevel": "off",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

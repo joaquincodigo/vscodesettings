@@ -1,0 +1,23 @@
+.container {
+	display: flex;	
+	background-color: gray;	
+	width: 1080px;
+	height: 712px;
+}
+
+.card-container {
+	display: flex;
+	width: 423px;
+	height: 712px;
+	justify-content: center;
+	align-items: center;
+	background-color: red;
+}
+
+.search-container {
+	display: flex;
+	flex-direction: column;
+	max-height: 540px;
+	background-color: blue;
+
+}

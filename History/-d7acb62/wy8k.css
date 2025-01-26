@@ -1,0 +1,47 @@
+.results-list {
+	height: 609px;
+	background-color: darkcyan;
+}
+
+img {
+	width: 30px;
+	height: 30px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 23px;
+	padding-left: 23px;
+	margin: 0px;
+}
+
+.result {
+	display: flex;
+	flex-direction: row;
+	height: 70px;
+	background-color: paleturquoise;
+	padding-top: 23px;
+}
+
+img {
+	height: 68px;
+	height: 68px;
+	min-width: 68px;
+	margin-left: 10px;
+}
+
+p {
+	margin: 0px;
+	margin-left: 23px;
+}
+
+.name {
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-size: larger;
+}
+
+.description {
+	font-size: large;
+}

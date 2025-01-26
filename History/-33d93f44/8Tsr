@@ -1,0 +1,30 @@
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+
+function isPalindrome(x) {
+	let numStr = x.toString()
+
+	let leftPointer = 0
+	let rightPointer = numStr.length
+
+	for (let i = 0; i < x.length; i++) {
+		if (leftPointer != rightPointer) {
+			return false
+		}
+		else {
+			leftPointer++
+			rightPointer--
+		}
+
+		return true
+	}
+
+};
+
+
+
+
+console.log(isPalindrome(121));
+console.log(isPalindrome(122));

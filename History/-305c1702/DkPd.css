@@ -1,0 +1,25 @@
+body {
+  background-color: lightgreen;
+}
+
+#game-screen {
+  border-radius: 2px;
+	width: fit-content;
+	overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.cell {
+  border: 1px solid darkgreen;
+  width: 14px;
+  height: 14px;
+}
+
+.empty {
+  background-color: green;
+}

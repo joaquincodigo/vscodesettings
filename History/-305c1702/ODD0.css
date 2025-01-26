@@ -1,0 +1,13 @@
+body {
+	background-color: lightgreen;
+}
+
+.cell {
+	width: 10px;	
+	height: 10px;	
+}
+
+.empty {
+	background-color: black;
+}
+

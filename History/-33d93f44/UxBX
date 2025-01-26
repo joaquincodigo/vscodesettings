@@ -1,0 +1,14 @@
+/**
+ * @param {number} x
+ * @return {boolean}
+ */
+
+function isPalindrome(x) {
+	let numStr = x.toString()
+
+	let p1 = 0 // pointer1
+	let p2 = numStr.length // pointer2
+};
+
+console.log(isPalindrome(121));
+console.log(isPalindrome(122));

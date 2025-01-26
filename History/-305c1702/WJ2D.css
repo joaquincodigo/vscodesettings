@@ -1,0 +1,33 @@
+body {
+  background-color: lightgreen;
+}
+
+#game-screen {
+  border-radius: 2px;
+	width: fit-content;
+	overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.cell {
+  background-color: green;
+  border: 1px solid darkgreen;
+  width: 14px;
+  height: 14px;
+}
+}
+
+/* CELL TYPES */
+
+.snake {
+  background-color: black;
+}
+
+.head {
+  background-color: white;
+}

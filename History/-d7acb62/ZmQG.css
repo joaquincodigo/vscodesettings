@@ -1,0 +1,18 @@
+.results-list {
+	height: 609px;
+	background-color: darkcyan;
+}
+
+img {
+	width: 30px;
+	height: 30px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.result {
+	display: flex;
+	flex-direction: row;
+}

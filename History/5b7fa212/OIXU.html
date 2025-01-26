@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS</title>
+	<link rel="stylesheet" href="imagesAndTextBoxes.css">
+
+	<style>
+		body {
+			margin-bottom: 100px;
+		}
+
+		#a,
+		#b {
+			display: block;
+			border-radius: 2px;
+			margin-top: 3px;
+			border: 1.3px solid gray;
+		}
+
+
+
+		#aa {
+			display: inline-block;
+			width: 200px;
+			font-weight: 500;
+			vertical-align: middle;
+		}
+
+		#bb,
+		#cc {
+			display: inline-block;
+			text-align: center;
+			width: 40px;
+		}
+
+		.google-container {
+			background-color: rgb(33, 33, 33);
+			height: 150px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.google-logo {
+			width: 200px;
+		}
+
+		.google-input {
+			margin-top: 3px;
+			display: block;
+			border: 1px solid white;
+			border-radius: 100px;
+			box-shadow: 0px 0px 20px rgba(256, 256, 256, 0.25);
+			width: 300px;
+			height: 25px;
+			box-sizing: border-box;
+			padding-left: 10px;
+		}
+
+		::placeholder {
+			color: gray;
+			font-size: 13px;
+		}
+
+		/* ----------------------------------- */
+		.singupform-container {
+			width: 180px;
+		}
+
+		.singupform-name-container {
+			background-color: red;
+			display: flex;
+			width: 100%;
+			height: 30px;
+		}
+
+		.singupform-name-input {
+			width: 50%;
+		}
+
+		.singupform-lastname-input {
+			width: 50%;
+		}
+
+		.singupform-email-input {
+			width: 100%;
+		}
+	</style>
+
+</head>
+
+<body>
+	<h1>Practicing CSS</h1>
+	<!-- <img src="cat.jpg" id="cat" alt="cat"> -->
+	<br>
+	<hr>
+	<input type="text" name="a" id="a" placeholder="Name">
+	<input type="text" name="b" id="b" placeholder="Email">
+	<hr>
+	<br>
+	<hr>
+	<p id="aa">Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+	<button id="bb">Yes</button>
+	<button id="cc">No</button>
+	<hr>
+	<br>
+	<div class="google-container">
+		<img class="google-logo" src="./google.png">
+		<input class="google-input" type="text" name="google-search" placeholder="Search Google or type a URL">
+	</div>
+	<hr>
+	<br>
+	<div class="singupform-container">
+
+		<div class="singupform-name-container">
+			<input class="singupform-name-input type=" text" placeholder="First Name">
+			<input class="singupform-lastname-input type=" text" placeholder="First Name">
+		</div>
+
+		<input type="text" name="" id="" class="singupform-email-input">
+		<button class="singupform-button">
+			Sign Up
+		</button>
+	</div>
+
+</body>
+
+</html>

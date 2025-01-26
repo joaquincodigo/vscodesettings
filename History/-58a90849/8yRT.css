@@ -1,0 +1,79 @@
+.grid1 {
+	display: grid;
+	grid-template-columns: 200px 75px;
+}
+
+.grid2 {
+	display: grid;
+	grid-template-columns: 50px 1fr 75px;
+}
+
+.div1 {
+	background-color: lightblue;
+}
+
+.div2 {
+	background-color: lightcoral;
+}
+
+.div3 {
+	background-color: lightcoral;
+}
+
+.div4 {
+	background-color: lightblue;
+}
+
+.div5 {
+	background-color: lightcoral;
+}
+
+/* -------------------------------- */
+
+.grid3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 20px;
+	row-gap: 10px;
+}
+
+.div6 {
+	background-color: lightpink;
+}
+
+
+/* --------------------------------- */
+.cards-container {
+	background-color: lightgray;
+}
+
+.card {
+	width: 100px;
+	display: grid;
+	grid-column: 1fr;
+	grid-row: 2fr 1fr;
+	background-color: red;
+}
+
+img {
+	width: 100%;
+}
+
+.text-container {
+	background-color: lightblue;
+	display: grid;
+	grid-template-columns: 1;
+	grid-template-rows: 3;
+}
+
+.name {
+	font-weight: bold;
+}
+
+.mutual-friends-container {
+	background-color: blue;
+}
+
+.small-img {
+	border-radius: 100%;
+}

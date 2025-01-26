@@ -1,0 +1,27 @@
+.results-list {
+	height: 609px;
+	background-color: darkcyan;
+}
+
+img {
+	width: 30px;
+	height: 30px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding-inline-start: 0px;
+	padding: 0px;
+}
+
+.result {
+	display: flex;
+	flex-direction: row;
+}
+
+img {
+
+}

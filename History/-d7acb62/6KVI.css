@@ -1,0 +1,13 @@
+.results-list {
+	height: 609px;
+	background-color: darkcyan;
+}
+
+img {
+	width: 30px;
+	height: 30px;
+}
+
+li {
+	text-decoration: none;
+}

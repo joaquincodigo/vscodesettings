@@ -1,0 +1,34 @@
+.results-list {
+	height: 609px;
+	background-color: darkcyan;
+}
+
+img {
+	width: 30px;
+	height: 30px;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 23px;
+	padding-left: 23px;
+	margin: 0px;
+}
+
+.result {
+	display: flex;
+	flex-direction: row;
+	height: 109px;
+	background-color: paleturquoise;
+}
+
+img {
+	height: 68px;
+	height: 68px;
+	min-width: 68px;
+	margin-left: 10px;
+}
+
+p {
+	margin: 0px;
+}
