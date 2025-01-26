@@ -158,15 +158,15 @@
           "foreground": "#20b1ff"
         }
       },
+"entity.name.function",
+"meta.function-call",
+"support.function",
+"keyword.other.special-method"
       // Blood Red
       {
         "scope": [
-          "entity.name.function",
           "entity.name.function.js",
-          "meta.function-call",
-          "support.function",
-          "keyword.other.special-method"
-        ],
+          ],
         "settings": {
           "foreground": "#cc1010"
         }
@@ -175,8 +175,6 @@
       // Purple (THE PPPEOPPPLE)
       {
         "scope": [
-          "support.constant.property",
-          "variable.parameter",
           "variable.parameter.js",
           "meta.parameter.object-binding-pattern.js",
           "meta.parameters.js",
@@ -191,8 +189,6 @@
       // White
       {
         "scope": [
-          "variable",
-          "support.other.variable",
           "variable.other.constant.js",
           "meta.definition.variable.js",
           "meta.var-single-variable.expr.js",
