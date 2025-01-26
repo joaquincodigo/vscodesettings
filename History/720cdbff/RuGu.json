@@ -6,8 +6,7 @@
   //  + LIGHT THEME +
   //  +-+-+-+-+-+-+-+
   //
-  // LIGHT WORKBENCH COLORS
-  // "workbench.colorCustomizations": {
+  // "workbench.colorCustomizations": { // LIGHT WORKBENCH COLORS
   //   "statusbar.debuggingbackground": "#000000",
   //   "statusbar.debuggingforeground": "#ffffff",
   //   "statusBar.foreground": "#ffffff",
@@ -19,9 +18,7 @@
   //   "statusBar.debuggingBackground": "#005f5f",
   //   "statusBar.debuggingForeground": "#ffffff"
   // },
-  //
-  // // LIGHT TOKENS
-  // "editor.tokenColorCustomizations": {
+  // "editor.tokenColorCustomizations": { // LIGHT TOKENS
   //   "textMateRules": [
   //     // System Blue
   //     {
@@ -123,26 +120,20 @@
   //  +-+-+-+-+-+-+-+
   //  + DARK THEME  +
   //  +-+-+-+-+-+-+-+
-  //
-  // DARK WORKBENCH COLORS
-  // "workbench.colorTheme": "Tokyo Night Light",
-
-  // LIGHT WORKBENCH COLORS
-  // "workbench.colorCustomizations": {
+  // "workbench.colorTheme": "Tomorrow Night Blue", // LIGHT WORKBENCH COLORS
+  // "workbench.colorCustomizations": { // DARK WORKBENCH COLORS
+  //   "editor.background": "#0a1840",
+  //   "editor.selectionBackground": "#c1035938",
+  //   "statusBar.foreground": "#97c0f9",
+  //   "statusBar.border": "#000000",
+  //   "statusBar.background": "#00092b",
   //   "statusbar.debuggingbackground": "#000000",
   //   "statusbar.debuggingforeground": "#ffffff",
-  //   "statusBar.foreground": "#ffffff",
-  //   "statusBar.border": "#000000",
-  //   "statusBar.background": "#000000",
-  //   "editor.background": "#dfdfdf",
-  //   "editor.selectionBackground": "#01d08f3c",
-  //   "statusBar.noFolderBackground": "#005f5f",
-  //   "statusBar.debuggingBackground": "#005f5f",
-  //   "statusBar.debuggingForeground": "#ffffff"
+  //   "statusBar.noFolderBackground": "#000000",
+  //   "statusBar.debuggingBackground": "#000000",
+  //   "statusBar.debuggingForeground": "#000000",
   // },
-  //
-  // DARK TOKENS
-  // "editor.tokenColorCustomizations": {
+  // "editor.tokenColorCustomizations": {  // DARK TOKENS
   //   "textMateRules": [
   //     // System Blue
   //     {
@@ -163,7 +154,7 @@
   //         "storage.type.function.js"
   //       ],
   //       "settings": {
-  //         "foreground": "#007bfe"
+  //         "foreground": "#73bbfb"
   //       }
   //     },
 
@@ -171,7 +162,7 @@
   //     {
   //       "scope": ["entity.name.function.js"],
   //       "settings": {
-  //         "foreground": "#b60202"
+  //         "foreground": "#cc1010"
   //       }
   //     },
 
@@ -185,11 +176,11 @@
   //         "entity.other.attribute-name"
   //       ],
   //       "settings": {
-  //         "foreground": "#8c01b3"
+  //         "foreground": "#d305f3"
   //       }
   //     },
 
-  //     // Black
+  //     // White
   //     {
   //       "scope": [
   //         "variable.other.constant.js",
@@ -203,7 +194,7 @@
   //         "punctuation.definition.tag"
   //       ],
   //       "settings": {
-  //         "foreground": "#000000"
+  //         "foreground": "#ffffff"
   //       }
   //     },
 
@@ -230,7 +221,7 @@
   //         "support.type.property-name.json"
   //       ],
   //       "settings": {
-  //         "foreground": "#03b149"
+  //         "foreground": "#3ae77f"
   //       }
   //     }
   //   ]

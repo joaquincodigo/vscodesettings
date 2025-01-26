@@ -73,8 +73,8 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/Users/Rip/Desktop/Code/recipemanager/app",
-            "backupPath": "C:\\Users\\Rip\\AppData\\Roaming\\Code\\Backups\\80495cd1be59e4338e56e0664b50c5a0",
+            "folder": "file:///c%3A/Users/Rip/Desktop/Code/simplesnake",
+            "backupPath": "C:\\Users\\Rip\\AppData\\Roaming\\Code\\Backups\\92bafbed4d52a42158bed2d76c0702a6",
             "uiState": {
                 "mode": 0,
                 "x": 0,
@@ -136,21 +136,10 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/recipemanager/app",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\recipemanager\\app"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -161,6 +150,16 @@
                                     },
                                     "enabled": true,
                                     "label": "C:\\Users\\Rip\\Desktop\\Code\\simplesnake"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/c:/Users/Rip/Desktop/Code/recipemanager/app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\recipemanager\\app"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -372,6 +371,13 @@
                         "submenu": {
                             "items": [
                                 {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
                                 }
@@ -441,6 +447,10 @@
                                     "id": "workbench.userDataSync.actions.manage",
                                     "label": "Settings Sync is On",
                                     "checked": true
+                                },
+                                {
+                                    "id": "workbench.userDataSync.actions.showConflicts",
+                                    "label": "Show Conflicts (1)"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"

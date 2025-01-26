@@ -5,9 +5,9 @@
   //  +-+-+-+-+-+-+-+
   //  + LIGHT THEME +
   //  +-+-+-+-+-+-+-+
-  //
-  // LIGHT WORKBENCH COLORS
+  // "workbench.colorTheme": "Tokyo Night Light", // LIGHT THEME
   // "workbench.colorCustomizations": {
+  //   // LIGHT WORKBENCH COLORS
   //   "statusbar.debuggingbackground": "#000000",
   //   "statusbar.debuggingforeground": "#ffffff",
   //   "statusBar.foreground": "#ffffff",
@@ -19,12 +19,11 @@
   //   "statusBar.debuggingBackground": "#005f5f",
   //   "statusBar.debuggingForeground": "#ffffff"
   // },
-  //
-  // // LIGHT TOKENS
   // "editor.tokenColorCustomizations": {
+  //   // LIGHT TOKENS
   //   "textMateRules": [
-  //     // System Blue
   //     {
+  //       // System Blue
   //       "scope": [
   //         "entity.name.tag",
   //         "support.class.component",
@@ -115,142 +114,118 @@
   //   ]
   // },
   // ----------------------------------------
-
-
-
 
   // ----------------------------------------
   //  +-+-+-+-+-+-+-+
   //  + DARK THEME  +
   //  +-+-+-+-+-+-+-+
-  //
-  // LIGHT WORKBENCH COLORS
-  "workbench.colorTheme": "Tokyo Night Light",
-  //
-  // DARK WORKBENCH COLORS
-  // "workbench.colorCustomizations": {
-  //   "statusbar.debuggingbackground": "#000000",
-  //   "statusbar.debuggingforeground": "#ffffff",
-  //   "statusBar.foreground": "#ffffff",
-  //   "statusBar.border": "#000000",
-  //   "statusBar.background": "#000000",
-  //   "editor.background": "#dfdfdf",
-  //   "editor.selectionBackground": "#01d08f3c",
-  //   "statusBar.noFolderBackground": "#005f5f",
-  //   "statusBar.debuggingBackground": "#005f5f",
-  //   "statusBar.debuggingForeground": "#ffffff"
-  // },
-  // DARK TOKENS
-  // "editor.tokenColorCustomizations": {
-  //   "textMateRules": [
-  //     // System Blue
-  //     {
-  //       "scope": [
-  //         "entity.name.tag",
-  //         "support.class.component",
-  //         "support.class.component.js",
-  //         "entity.name.function.js",
-  //         "storage.type.js",
-  //         "meta.var.expr.js",
-  //         "keyword.control.flow",
-  //         "keyword.control",
-  //         "keyword.control.import",
-  //         "keyword.control.default",
-  //         "keyword.control.export",
-  //         "constant.language",
-  //         "punctuation.definition.template-expression",
-  //         "storage.type.function.js"
-  //       ],
-  //       "settings": {
-  //         "foreground": "#007bfe"
-  //       }
-  //     },
+  "workbench.colorTheme": "Tomorrow Night Blue", // LIGHT WORKBENCH COLORS
+  "workbench.colorCustomizations": { // DARK WORKBENCH COLORS
+    "editor.background": "#0a1840",
+    "editor.selectionBackground": "#c1035938",
+    "statusBar.foreground": "#97c0f9",
+    "statusBar.border": "#000000",
+    "statusBar.background": "#00092b",
+    "statusbar.debuggingbackground": "#000000",
+    "statusbar.debuggingforeground": "#ffffff",
+    "statusBar.noFolderBackground": "#000000",
+    "statusBar.debuggingBackground": "#000000",
+    "statusBar.debuggingForeground": "#000000",
+  },
+  "editor.tokenColorCustomizations": {  // DARK TOKENS
+    "textMateRules": [
+      // System Blue
+      {
+        "scope": [
+          "entity.name.tag",
+          "support.class.component",
+          "support.class.component.js",
+          "entity.name.function.js",
+          "storage.type.js",
+          "meta.var.expr.js",
+          "keyword.control.flow",
+          "keyword.control",
+          "keyword.control.import",
+          "keyword.control.default",
+          "keyword.control.export",
+          "constant.language",
+          "punctuation.definition.template-expression",
+          "storage.type.function.js"
+        ],
+        "settings": {
+          "foreground": "#73bbfb"
+        }
+      },
 
-  //     // Blood Red
-  //     {
-  //       "scope": ["entity.name.function.js"],
-  //       "settings": {
-  //         "foreground": "#b60202"
-  //       }
-  //     },
+      // Blood Red
+      {
+        "scope": ["entity.name.function.js"],
+        "settings": {
+          "foreground": "#cc1010"
+        }
+      },
 
-  //     // Purple (THE PPPEOPPPLE)
-  //     {
-  //       "scope": [
-  //         "variable.parameter.js",
-  //         "meta.parameter.object-binding-pattern.js",
-  //         "meta.parameters.js",
-  //         "variable.other.property.js",
-  //         "entity.other.attribute-name"
-  //       ],
-  //       "settings": {
-  //         "foreground": "#8c01b3"
-  //       }
-  //     },
+      // Purple (THE PPPEOPPPLE)
+      {
+        "scope": [
+          "variable.parameter.js",
+          "meta.parameter.object-binding-pattern.js",
+          "meta.parameters.js",
+          "variable.other.property.js",
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "foreground": "#d305f3"
+        }
+      },
 
-  //     // Black
-  //     {
-  //       "scope": [
-  //         "variable.other.constant.js",
-  //         "meta.definition.variable.js",
-  //         "meta.var-single-variable.expr.js",
-  //         "meta.var.expr.js",
-  //         "variable.other.object.js",
-  //         "constant.numeric",
-  //         "meta.jsx punctuation.definition.tag",
-  //         "punctuation.section.embedded",
-  //         "punctuation.definition.tag"
-  //       ],
-  //       "settings": {
-  //         "foreground": "#000000"
-  //       }
-  //     },
+      // White
+      {
+        "scope": [
+          "variable.other.constant.js",
+          "meta.definition.variable.js",
+          "meta.var-single-variable.expr.js",
+          "meta.var.expr.js",
+          "variable.other.object.js",
+          "constant.numeric",
+          "meta.jsx punctuation.definition.tag",
+          "punctuation.section.embedded",
+          "punctuation.definition.tag"
+        ],
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
 
-  //     // Green
-  //     {
-  //       "scope": [
-  //         "string",
-  //         "support.type.property-name.json.comments",
-  //         "string.json.comments",
-  //         "meta.structure.dictionary.json.comments",
-  //         "meta.structure.array.json.comments",
-  //         "meta.structure.dictionary.value.json.comments",
-  //         "meta.structure.dictionary.json.comments",
-  //         "meta.structure.dictionary.value.json.comments",
-  //         "meta.structure.dictionary.json.comments",
-  //         "source.json.comments",
-  //         "foreground",
-  //         "source.json",
-  //         "meta.structure.dictionary.json",
-  //         "meta.structure.dictionary.value.json",
-  //         "meta.structure.dictionary.json",
-  //         "meta.structure.dictionary.value.json",
-  //         "meta.structure.dictionary.json",
-  //         "support.type.property-name.json"
-  //       ],
-  //       "settings": {
-  //         "foreground": "#03b149"
-  //       }
-  //     }
-  //   ]
-  // },
+      // Green
+      {
+        "scope": [
+          "string",
+          "support.type.property-name.json.comments",
+          "string.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "meta.structure.array.json.comments",
+          "meta.structure.dictionary.value.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "meta.structure.dictionary.value.json.comments",
+          "meta.structure.dictionary.json.comments",
+          "source.json.comments",
+          "foreground",
+          "source.json",
+          "meta.structure.dictionary.json",
+          "meta.structure.dictionary.value.json",
+          "meta.structure.dictionary.json",
+          "meta.structure.dictionary.value.json",
+          "meta.structure.dictionary.json",
+          "support.type.property-name.json"
+        ],
+        "settings": {
+          "foreground": "#3ae77f"
+        }
+      }
+    ]
+  },
   // ----------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   // VIM EXTENSION
   "vim.useSystemClipboard": true,
@@ -340,7 +315,6 @@
   "window.customTitleBarVisibility": "never",
   "window.titleBarStyle": "native",
   "window.menuBarVisibility": "toggle",
-  "window.zoomLevel": -3,
   "window.density.editorTabHeight": "compact",
   "window.commandCenter": false,
 

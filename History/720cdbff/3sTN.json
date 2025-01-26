@@ -5,9 +5,9 @@
   //  +-+-+-+-+-+-+-+
   //  + LIGHT THEME +
   //  +-+-+-+-+-+-+-+
-  // "workbench.colorTheme": "Tokyo Night Light", // LIGHT THEME
+  //
+  // LIGHT WORKBENCH COLORS
   // "workbench.colorCustomizations": {
-  //   // LIGHT WORKBENCH COLORS
   //   "statusbar.debuggingbackground": "#000000",
   //   "statusbar.debuggingforeground": "#ffffff",
   //   "statusBar.foreground": "#ffffff",
@@ -19,11 +19,12 @@
   //   "statusBar.debuggingBackground": "#005f5f",
   //   "statusBar.debuggingForeground": "#ffffff"
   // },
+  //
+  // // LIGHT TOKENS
   // "editor.tokenColorCustomizations": {
-  //   // LIGHT TOKENS
   //   "textMateRules": [
+  //     // System Blue
   //     {
-  //       // System Blue
   //       "scope": [
   //         "entity.name.tag",
   //         "support.class.component",
@@ -115,12 +116,19 @@
   // },
   // ----------------------------------------
 
+
+
+
   // ----------------------------------------
   //  +-+-+-+-+-+-+-+
   //  + DARK THEME  +
   //  +-+-+-+-+-+-+-+
-  "workbench.colorTheme": "Tomorrow Night Blue", // LIGHT WORKBENCH COLORS
-  "workbench.colorCustomizations": { // DARK WORKBENCH COLORS
+  //
+  // LIGHT WORKBENCH COLORS
+  "workbench.colorTheme": "Tomorrow Night Blue",
+  //
+  // DARK WORKBENCH COLORS
+  "workbench.colorCustomizations": {
     "editor.background": "#0a1840",
     "editor.selectionBackground": "#c1035938",
     "statusBar.foreground": "#97c0f9",
@@ -132,7 +140,8 @@
     "statusBar.debuggingBackground": "#000000",
     "statusBar.debuggingForeground": "#000000",
   },
-  "editor.tokenColorCustomizations": {  // DARK TOKENS
+  // DARK TOKENS
+  "editor.tokenColorCustomizations": {
     "textMateRules": [
       // System Blue
       {
@@ -153,7 +162,7 @@
           "storage.type.function.js"
         ],
         "settings": {
-          "foreground": "#20b1ff"
+          "foreground": "#73bbfb"
         }
       },
 
@@ -226,6 +235,22 @@
     ]
   },
   // ----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // VIM EXTENSION
   "vim.useSystemClipboard": true,

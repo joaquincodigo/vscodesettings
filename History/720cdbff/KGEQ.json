@@ -116,16 +116,27 @@
   // },
   // ----------------------------------------
 
+
+
+
   // ----------------------------------------
   //  +-+-+-+-+-+-+-+
   //  + DARK THEME  +
   //  +-+-+-+-+-+-+-+
-  //
-  // DARK WORKBENCH COLORS
-  // "workbench.colorTheme": "Tokyo Night Light",
-  //
-  // DARK TOKENS
-  "editor.tokenColorCustomizations": {
+  "workbench.colorTheme": "Tomorrow Night Blue", // LIGHT WORKBENCH COLORS
+  "workbench.colorCustomizations": { // DARK WORKBENCH COLORS
+    "editor.background": "#0a1840",
+    "editor.selectionBackground": "#c1035938",
+    "statusBar.foreground": "#97c0f9",
+    "statusBar.border": "#000000",
+    "statusBar.background": "#00092b",
+    "statusbar.debuggingbackground": "#000000",
+    "statusbar.debuggingforeground": "#ffffff",
+    "statusBar.noFolderBackground": "#000000",
+    "statusBar.debuggingBackground": "#000000",
+    "statusBar.debuggingForeground": "#000000",
+  },
+  "editor.tokenColorCustomizations": {  // DARK TOKENS
     "textMateRules": [
       // System Blue
       {
@@ -146,7 +157,7 @@
           "storage.type.function.js"
         ],
         "settings": {
-          "foreground": "#007bfe"
+          "foreground": "#73bbfb"
         }
       },
 
@@ -154,7 +165,7 @@
       {
         "scope": ["entity.name.function.js"],
         "settings": {
-          "foreground": "#b60202"
+          "foreground": "#cc1010"
         }
       },
 
@@ -168,11 +179,11 @@
           "entity.other.attribute-name"
         ],
         "settings": {
-          "foreground": "#8c01b3"
+          "foreground": "#d305f3"
         }
       },
 
-      // Black
+      // White
       {
         "scope": [
           "variable.other.constant.js",
@@ -186,7 +197,7 @@
           "punctuation.definition.tag"
         ],
         "settings": {
-          "foreground": "#000000"
+          "foreground": "#ffffff"
         }
       },
 
@@ -213,12 +224,28 @@
           "support.type.property-name.json"
         ],
         "settings": {
-          "foreground": "#03b149"
+          "foreground": "#3ae77f"
         }
       }
     ]
   },
   // ----------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   // VIM EXTENSION
   "vim.useSystemClipboard": true,
