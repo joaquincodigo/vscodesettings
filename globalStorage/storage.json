@@ -65,7 +65,7 @@
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
-            "activityBarWidth": 0,
+            "activityBarWidth": 48,
             "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -655,8 +655,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
-                                    "label": "Zen Mode",
-                                    "checked": true
+                                    "label": "Zen Mode"
                                 },
                                 {
                                     "id": "workbench.action.toggleCenteredLayout",
@@ -769,22 +768,22 @@
                                     }
                                 },
                                 {
-                                    "id": "submenuitem.EditorTabsBarShowTabsZenModeSubmenu",
+                                    "id": "submenuitem.EditorTabsBarShowTabsSubmenu",
                                     "label": "Tab Bar",
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.zenShowMultipleEditorTabs",
-                                                "label": "Multiple Tabs"
+                                                "id": "workbench.action.showMultipleEditorTabs",
+                                                "label": "Multiple Tabs",
+                                                "checked": true
                                             },
                                             {
-                                                "id": "workbench.action.zenShowEditorTab",
+                                                "id": "workbench.action.showEditorTab",
                                                 "label": "Single Tab"
                                             },
                                             {
-                                                "id": "workbench.action.zenHideEditorTabs",
-                                                "label": "Hidden",
-                                                "checked": true
+                                                "id": "workbench.action.hideEditorTabs",
+                                                "label": "Hidden"
                                             }
                                         ]
                                     }
@@ -1001,7 +1000,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

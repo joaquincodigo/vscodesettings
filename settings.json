@@ -139,6 +139,9 @@
       // System Blue
       {
         "scope": [
+          "support.type.property-name.css",
+          "meta.property-name.css",
+          "meta.property-list.css",
           "entity.name.tag",
           "support.class.component",
           "support.class.component.js",
@@ -172,6 +175,20 @@
         }
       },
 
+      // Orange
+      {
+        "scope": [
+          "entity.other.attribute-name.id.css",
+          "meta.selector.css",
+          "entity.other.attribute-name.class.css",
+          "entity.other.inherited-class",
+          "entity.name.tag.css"
+        ],
+        "settings": {
+          "foreground": "#eba91a"
+        }
+      },
+
       // Purple (THE PPPEOPPPLE)
       {
         "scope": [
@@ -191,6 +208,11 @@
       // White
       {
         "scope": [
+          "keyword.other.unit.px.css",
+          "constant.numeric.css",
+          "support.constant.color",
+          "w3c-extended-color-name.css",
+          "support.constant.property-value.css",
           "variable",
           "support.other.variable",
           "variable.other.constant.js",
