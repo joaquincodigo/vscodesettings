@@ -123,16 +123,31 @@
   "workbench.colorCustomizations": {
     // DARK WORKBENCH COLORS
     "editor.background": "#0a1840",
+
     "editor.selectionBackground": "#c1035938",
     "statusBar.foreground": "#97c0f9",
     "statusBar.border": "#000000",
     "statusBar.background": "#00092b",
     "statusbar.debuggingbackground": "#000000",
     "statusbar.debuggingforeground": "#ffffff",
-    "statusBar.noFolderBackground": "#000000",
+    "statusBar.noFolderBackground": "#224ec8",
     "statusBar.debuggingBackground": "#000000",
-    "statusBar.debuggingForeground": "#000000"
+    "statusBar.debuggingForeground": "#000000",
+    "editorBracketPairGuide.activeBackground1": "#0e3aab",
+    "editorBracketPairGuide.activeBackground2": "#1a3791",
+    "editorBracketPairGuide.activeBackground3": "#1a3791",
+    "editorBracketPairGuide.activeBackground4": "#1a3791",
+    "editorBracketPairGuide.activeBackground5": "#1a3791",
+    "editorBracketPairGuide.activeBackground6": "#1a3791",
+    "editorBracketPairGuide.background1": "#1a3791",
+    "editorBracketPairGuide.background2": "#1a3791",
+    "editorBracketPairGuide.background3": "#1a3791",
+    "editorBracketPairGuide.background4": "#1a3791",
+    "editorBracketPairGuide.background5": "#1a3791",
+    "editorBracketPairGuide.background6": "#1a3791"
   },
+
+  "editor.guides.bracketPairs": true,
   "editor.tokenColorCustomizations": {
     // DARK TOKENS
     "textMateRules": [

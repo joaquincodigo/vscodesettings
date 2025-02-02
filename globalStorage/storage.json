@@ -37,9 +37,6 @@
         "folders": [
             {
                 "folderUri": "file:///c%3A/Users/Rip/Desktop/Code/simplesnake"
-            },
-            {
-                "folderUri": "file:///c%3A/Users/Rip/Desktop/Code/recipemanager/app"
             }
         ],
         "emptyWindows": []
@@ -59,13 +56,13 @@
             "sideBarBackground": "#001c40",
             "statusBarBackground": "#00092b",
             "statusBarBorder": "#000000",
-            "statusBarNoFolderBackground": "#000000"
+            "statusBarNoFolderBackground": "#224ec8"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
-            "activityBarWidth": 48,
+            "activityBarWidth": 0,
             "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -79,7 +76,7 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 632,
+                "width": 646,
                 "height": 503,
                 "zoomLevel": 0
             }
@@ -136,7 +133,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -359,8 +357,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -655,7 +652,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
-                                    "label": "Zen Mode"
+                                    "label": "Zen Mode",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleCenteredLayout",
@@ -768,22 +766,22 @@
                                     }
                                 },
                                 {
-                                    "id": "submenuitem.EditorTabsBarShowTabsSubmenu",
+                                    "id": "submenuitem.EditorTabsBarShowTabsZenModeSubmenu",
                                     "label": "Tab Bar",
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.showMultipleEditorTabs",
-                                                "label": "Multiple Tabs",
-                                                "checked": true
+                                                "id": "workbench.action.zenShowMultipleEditorTabs",
+                                                "label": "Multiple Tabs"
                                             },
                                             {
-                                                "id": "workbench.action.showEditorTab",
+                                                "id": "workbench.action.zenShowEditorTab",
                                                 "label": "Single Tab"
                                             },
                                             {
-                                                "id": "workbench.action.hideEditorTabs",
-                                                "label": "Hidden"
+                                                "id": "workbench.action.zenHideEditorTabs",
+                                                "label": "Hidden",
+                                                "checked": true
                                             }
                                         ]
                                     }
@@ -1000,8 +998,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1549,8 +1546,8 @@
                 "userSettingsLabel": "ctrl+v"
             },
             "actions.find": {
-                "label": "Ctrl+F",
-                "userSettingsLabel": "ctrl+f"
+                "label": "Shift+7",
+                "userSettingsLabel": "shift+7"
             },
             "editor.action.startFindReplaceAction": {
                 "label": "Ctrl+H",
@@ -1790,8 +1787,8 @@
                 "userSettingsLabel": "ctrl+shift+o"
             },
             "editor.action.revealDefinition": {
-                "label": "F12",
-                "userSettingsLabel": "f12"
+                "label": "Ctrl+G",
+                "userSettingsLabel": "ctrl+g"
             },
             "editor.action.goToImplementation": {
                 "label": "Ctrl+F12",
@@ -1800,10 +1797,6 @@
             "editor.action.goToReferences": {
                 "label": "Shift+F12",
                 "userSettingsLabel": "shift+f12"
-            },
-            "workbench.action.gotoLine": {
-                "label": "Ctrl+G",
-                "userSettingsLabel": "ctrl+g"
             },
             "editor.action.jumpToBracket": {
                 "label": "Ctrl+Shift+\\",
