@@ -158,7 +158,7 @@
     "command": "-editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus"
   },
-
+  
   // Neovim "0" goes to the first char in the line, not just the beginning of the line
   {
     "command": "vscode-neovim.send",
@@ -173,28 +173,104 @@
     "command": "editor.action.selectAll",
     "when": "editorTextFocus"
   },
-
+  
   // Page Up
   {
     "key": "ctrl+u",
-    "command": "cursorPageUp"
+    "command": "cursorPageUp",
+    "when": "textInputFocus"
   },
   {
     "key": "pageup",
-    "command": "cursorPageUp"
+    "command": "-cursorPageUp",
+    "when": "textInputFocus"
   },
-
-  // Page Down
+  
+  
+  // Page Down 
+  {
+    "key": "ctrl+u",
+    "command": "editor.action.pageUpHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "pageup",
+    "command": "-editor.action.pageUpHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-vscode-neovim.send-cmdline",
+    "when": "neovim.init && neovim.mode == 'cmdline'"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert.u && neovim.init && neovim.mode == 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-vscode-neovim.ctrl-u",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal.u && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-editor.action.pageUpHover",
+    "when": "editorHoverFocused"
+  },
   {
     "key": "ctrl+d",
-    "command": "cursorPageDown"
+    "command": "editor.action.pageDownHover",
+    "when": "editorHoverFocused"
   },
   {
     "key": "pagedown",
-    "command": "cursorPageDown"
+    "command": "-editor.action.pageDownHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "cursorPageDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "pagedown",
+    "command": "-cursorPageDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "list.focusPageDown",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+  },
+  {
+    "key": "pagedown",
+    "command": "-list.focusPageDown",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-vscode-neovim.ctrl-d",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal.d && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert.d && neovim.init && neovim.mode == 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.pageDownHover",
+    "when": "editorHoverFocused"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-list.focusPageDown",
+    "when": "listFocus && !inputFocus"
   },
 
-  // Go Down in pop-up lists
+  // Go down in VSCode pop-up lists (autocomplete, command palette, etc.)
+
   {
     "key": "ctrl+j",
     "command": "selectNextSuggestion",
@@ -205,19 +281,6 @@
     "command": "workbench.action.quickOpenSelectNext",
     "when": "inQuickOpen"
   },
-
-  // Go Up in pop-up lists
-  {
-    "key": "ctrl+k",
-    "command": "selectPrevSuggestion",
-    "when": "suggestWidgetVisible"
-  },
-  {
-    "key": "ctrl+k",
-    "command": "workbench.action.quickOpenSelectPrevious",
-    "when": "inQuickOpen"
-  },
-
   // Neovim "0" goes to the first char in the line, not just the beginning of the line
   {
     "command": "vscode-neovim.send",
@@ -225,15 +288,13 @@
     "when": "editorTextFocus && neovim.mode == 'normal'",
     "args": ":normal ^<CR>"
   },
-
   // CTRL + A selects all the doc's text
   {
     "key": "ctrl+a",
     "command": "editor.action.selectAll",
     "when": "editorTextFocus"
   },
-
-  // Shift+7 (/) opens search only in editor Normal/Visual mode (Neovim)
+  // Shift+7 opens search only in editor Normal/Visual mode (Neovim)
   {
     "key": "shift+7",
     "command": "actions.find",

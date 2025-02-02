@@ -194,7 +194,8 @@
     "command": "cursorPageDown"
   },
 
-  // Go Down in pop-up lists
+  // Go down in VSCode pop-up lists (autocomplete, command palette, etc.)
+
   {
     "key": "ctrl+j",
     "command": "selectNextSuggestion",
@@ -205,19 +206,6 @@
     "command": "workbench.action.quickOpenSelectNext",
     "when": "inQuickOpen"
   },
-
-  // Go Up in pop-up lists
-  {
-    "key": "ctrl+k",
-    "command": "selectPrevSuggestion",
-    "when": "suggestWidgetVisible"
-  },
-  {
-    "key": "ctrl+k",
-    "command": "workbench.action.quickOpenSelectPrevious",
-    "when": "inQuickOpen"
-  },
-
   // Neovim "0" goes to the first char in the line, not just the beginning of the line
   {
     "command": "vscode-neovim.send",
@@ -225,15 +213,13 @@
     "when": "editorTextFocus && neovim.mode == 'normal'",
     "args": ":normal ^<CR>"
   },
-
   // CTRL + A selects all the doc's text
   {
     "key": "ctrl+a",
     "command": "editor.action.selectAll",
     "when": "editorTextFocus"
   },
-
-  // Shift+7 (/) opens search only in editor Normal/Visual mode (Neovim)
+  // Shift+7 opens search only in editor Normal/Visual mode (Neovim)
   {
     "key": "shift+7",
     "command": "actions.find",

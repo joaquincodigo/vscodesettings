@@ -194,7 +194,7 @@
     "command": "cursorPageDown"
   },
 
-  // Go Down in pop-up lists
+  // Go down in VSCode pop-up lists (autocomplete, command palette, etc.)
   {
     "key": "ctrl+j",
     "command": "selectNextSuggestion",
@@ -203,18 +203,6 @@
   {
     "key": "ctrl+j",
     "command": "workbench.action.quickOpenSelectNext",
-    "when": "inQuickOpen"
-  },
-
-  // Go Up in pop-up lists
-  {
-    "key": "ctrl+k",
-    "command": "selectPrevSuggestion",
-    "when": "suggestWidgetVisible"
-  },
-  {
-    "key": "ctrl+k",
-    "command": "workbench.action.quickOpenSelectPrevious",
     "when": "inQuickOpen"
   },
 
@@ -233,7 +221,7 @@
     "when": "editorTextFocus"
   },
 
-  // Shift+7 (/) opens search only in editor Normal/Visual mode (Neovim)
+  // Shift+7 opens search only in editor Normal/Visual mode (Neovim)
   {
     "key": "shift+7",
     "command": "actions.find",
