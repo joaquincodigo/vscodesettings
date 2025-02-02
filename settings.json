@@ -390,7 +390,17 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
-  
- // NEOVIM CONFIG (you have to config the real init.lua of Neovim at "C:\Users\Rip\AppData\Local\nvim\init.lua")
-}
 
+  // NEOVIM CONFIG (you have to config the real init.lua of Neovim at "C:\Users\Rip\AppData\Local\nvim\init.lua")
+  // -------------------------------
+  // -- Use OS clipboard
+  // vim.opt.clipboard = "unnamedplus"
+  // -- Use VSCode's fold-aware cursor movements in Normal mode
+  // vim.api.nvim_set_keymap('n', 'j', '<Cmd>call VSCodeNotify("cursorDown")<CR>', { noremap = true, silent = true })
+  // vim.api.nvim_set_keymap('n', 'k', '<Cmd>call VSCodeNotify("cursorUp")<CR>', { noremap = true, silent = true })
+  // -- Optional: Add mappings for Visual mode too
+  // vim.api.nvim_set_keymap('v', 'j', '<Cmd>call VSCodeNotify("cursorDown")<CR>', { noremap = true, silent = true })
+  // vim.api.nvim_set_keymap('v', 'k', '<Cmd>call VSCodeNotify("cursorUp")<CR>', { noremap = true, silent = true })
+  // -------------------------------
+
+}

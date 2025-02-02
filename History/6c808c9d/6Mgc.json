@@ -12,7 +12,7 @@
     "command": "workbench.action.terminal.toggleTerminal",
     "when": "terminal.active"
   },
-
+  
   // Close current focused file in the editor
   {
     "key": "ctrl+w",
@@ -172,6 +172,7 @@
     "key": "0",
     "when": "editorTextFocus && neovim.mode == 'normal'",
     "args": ":normal ^<CR>"
+
   },
 
   // CTRL + A selects all the doc's text
@@ -179,13 +180,6 @@
     "key": "ctrl+a",
     "command": "editor.action.selectAll",
     "when": "editorTextFocus"
-  },
-
-  // Toggle unfolding
-  {
-    "key": "ctrl+f",
-    "command": "editor.toggleFold",
-    "when": "editorTextFocus && neovim.mode == 'normal'"
   },
 
   // Page Up
@@ -252,5 +246,5 @@
     "key": "shift+7",
     "command": "actions.find",
     "when": "editorTextFocus && neovim.mode != 'insert'"
-  }
+  },
 ]
