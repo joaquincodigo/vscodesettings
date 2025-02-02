@@ -5,9 +5,9 @@
   //  +-+-+-+-+-+-+-+
   //  + LIGHT THEME +
   //  +-+-+-+-+-+-+-+
-  //
-  // LIGHT WORKBENCH COLORS
+  // "workbench.colorTheme": "Tokyo Night Light", // LIGHT THEME
   // "workbench.colorCustomizations": {
+  //   // LIGHT WORKBENCH COLORS
   //   "statusbar.debuggingbackground": "#000000",
   //   "statusbar.debuggingforeground": "#ffffff",
   //   "statusBar.foreground": "#ffffff",
@@ -19,12 +19,11 @@
   //   "statusBar.debuggingBackground": "#005f5f",
   //   "statusBar.debuggingForeground": "#ffffff"
   // },
-  //
-  // // LIGHT TOKENS
   // "editor.tokenColorCustomizations": {
+  //   // LIGHT TOKENS
   //   "textMateRules": [
-  //     // System Blue
   //     {
+  //       // System Blue
   //       "scope": [
   //         "entity.name.tag",
   //         "support.class.component",
@@ -116,36 +115,48 @@
   // },
   // ----------------------------------------
 
-
-
-
   // ----------------------------------------
   //  +-+-+-+-+-+-+-+
   //  + DARK THEME  +
   //  +-+-+-+-+-+-+-+
-  //
-  // LIGHT WORKBENCH COLORS
-  "workbench.colorTheme": "Tomorrow Night Blue",
-  //
-  // DARK WORKBENCH COLORS
+  "workbench.colorTheme": "Tomorrow Night Blue", // LIGHT WORKBENCH COLORS
   "workbench.colorCustomizations": {
-    "statusbar.debuggingbackground": "#000000",
-    "statusbar.debuggingforeground": "#ffffff",
+    // DARK WORKBENCH COLORS
+    "editor.background": "#0a1840",
+
+    "editor.selectionBackground": "#c1035938",
     "statusBar.foreground": "#97c0f9",
     "statusBar.border": "#000000",
     "statusBar.background": "#00092b",
-    "editor.background": "#0a1840",
-    "editor.selectionBackground": "#c1035938",
-    "statusBar.noFolderBackground": "#005f5f",
-    "statusBar.debuggingBackground": "#005f5f",
-    "statusBar.debuggingForeground": "#ffffff"
+    "statusbar.debuggingbackground": "#000000",
+    "statusbar.debuggingforeground": "#ffffff",
+    "statusBar.noFolderBackground": "#224ec8",
+    "statusBar.debuggingBackground": "#000000",
+    "statusBar.debuggingForeground": "#000000",
+    "editorBracketPairGuide.activeBackground1": "#0e3aab",
+    "editorBracketPairGuide.activeBackground2": "#1a3791",
+    "editorBracketPairGuide.activeBackground3": "#1a3791",
+    "editorBracketPairGuide.activeBackground4": "#1a3791",
+    "editorBracketPairGuide.activeBackground5": "#1a3791",
+    "editorBracketPairGuide.activeBackground6": "#1a3791",
+    "editorBracketPairGuide.background1": "#1a3791",
+    "editorBracketPairGuide.background2": "#1a3791",
+    "editorBracketPairGuide.background3": "#1a3791",
+    "editorBracketPairGuide.background4": "#1a3791",
+    "editorBracketPairGuide.background5": "#1a3791",
+    "editorBracketPairGuide.background6": "#1a3791"
   },
-  // DARK TOKENS
+
+  "editor.guides.bracketPairs": true,
   "editor.tokenColorCustomizations": {
+    // DARK TOKENS
     "textMateRules": [
       // System Blue
       {
         "scope": [
+          "support.type.property-name.css",
+          "meta.property-name.css",
+          "meta.property-list.css",
           "entity.name.tag",
           "support.class.component",
           "support.class.component.js",
@@ -162,21 +173,42 @@
           "storage.type.function.js"
         ],
         "settings": {
-          "foreground": "#007bfe"
+          "foreground": "#20b1ff"
+        }
+      },
+      // Blood Red
+      {
+        "scope": [
+          "entity.name.function",
+          "entity.name.function.js",
+          "meta.function-call",
+          "support.function",
+          "keyword.other.special-method"
+        ],
+        "settings": {
+          "foreground": "#cc1010"
         }
       },
 
-      // Blood Red
+      // Orange
       {
-        "scope": ["entity.name.function.js"],
+        "scope": [
+          "entity.other.attribute-name.id.css",
+          "meta.selector.css",
+          "entity.other.attribute-name.class.css",
+          "entity.other.inherited-class",
+          "entity.name.tag.css"
+        ],
         "settings": {
-          "foreground": "#b60202"
+          "foreground": "#eba91a"
         }
       },
 
       // Purple (THE PPPEOPPPLE)
       {
         "scope": [
+          "support.constant.property",
+          "variable.parameter",
           "variable.parameter.js",
           "meta.parameter.object-binding-pattern.js",
           "meta.parameters.js",
@@ -184,13 +216,20 @@
           "entity.other.attribute-name"
         ],
         "settings": {
-          "foreground": "#8c01b3"
+          "foreground": "#d305f3"
         }
       },
 
-      // Black
+      // White
       {
         "scope": [
+          "keyword.other.unit.px.css",
+          "constant.numeric.css",
+          "support.constant.color",
+          "w3c-extended-color-name.css",
+          "support.constant.property-value.css",
+          "variable",
+          "support.other.variable",
           "variable.other.constant.js",
           "meta.definition.variable.js",
           "meta.var-single-variable.expr.js",
@@ -199,10 +238,14 @@
           "constant.numeric",
           "meta.jsx punctuation.definition.tag",
           "punctuation.section.embedded",
-          "punctuation.definition.tag"
+          "punctuation.definition.tag",
+          "variable.other.readwrite.js",
+          "meta.definition.variable.js",
+          "meta.var-single-variable.expr.js",
+          "meta.var.expr.js"
         ],
         "settings": {
-          "foreground": "#000000"
+          "foreground": "#ffffff"
         }
       },
 
@@ -229,28 +272,12 @@
           "support.type.property-name.json"
         ],
         "settings": {
-          "foreground": "#03b149"
+          "foreground": "#3ae77f"
         }
       }
     ]
   },
   // ----------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   // VIM EXTENSION
   "vim.useSystemClipboard": true,
@@ -258,7 +285,6 @@
   "vim.highlightedyank.color": "rgba(1, 142, 142, 0.2)",
   "vim.highlightedyank.duration": 300,
   "vim.foldfix": true,
-  "editor.cursorSurroundingLines": 500,
   "vim.smartRelativeLine": false,
   "vim.autoindent": false,
   "vim.normalModeKeyBindingsNonRecursive": [
@@ -267,6 +293,9 @@
       "commands": ["actions.find"]
     }
   ],
+
+  // CURSOR LINE ALWAYS CENTERED
+  "editor.cursorSurroundingLines": 500,
 
   // FONT
   "editor.fontLigatures": true,

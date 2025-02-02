@@ -245,5 +245,5 @@
     "key": "shift+7",
     "command": "actions.find",
     "when": "editorTextFocus && neovim.mode != 'insert'"
-  },
+  }
 ]

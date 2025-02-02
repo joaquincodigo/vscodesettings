@@ -245,5 +245,19 @@
     "key": "shift+7",
     "command": "actions.find",
     "when": "editorTextFocus && neovim.mode != 'insert'"
+  }
+  
+
+  
+  // Remap 'j' and 'k' to "down" and "up" in normal or visual mode for Neovim extension
+  {
+    "key": "j",
+    "command": "cursorDown",
+    "when": "neovim.mode == 'Normal' || neovim.mode == 'Visual'"
   },
+  {
+    "key": "k",
+    "command": "cursorUp",
+    "when": "neovim.mode == 'Normal' || neovim.mode == 'Visual'"
+  }
 ]

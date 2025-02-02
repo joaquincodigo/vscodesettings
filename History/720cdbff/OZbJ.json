@@ -282,6 +282,11 @@
   "editor.fontLigatures": true,
   "editor.fontWeight": "normal",
   "editor.fontFamily": "JetBrains Mono",
+  
+  // NEOVIM EXTENSION 
+
+  
+
 
   // EDITOR
   "editor.cursorSmoothCaretAnimation": "off",
@@ -390,7 +395,4 @@
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
-  
- // NEOVIM CONFIG (you have to config the real init.lua of Neovim at "C:\Users\Rip\AppData\Local\nvim\init.lua")
 }
-
