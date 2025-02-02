@@ -68,7 +68,7 @@
     "when": "inEditorsPicker && inQuickOpen"
   },
 
-  // Terminals hopping
+  // Terminals hopping 
   {
     "key": "ctrl+tab",
     "command": "workbench.action.terminal.focusNext",
@@ -94,18 +94,19 @@
   },
 
   // Toggle file explorer with "halflife-console" key and manages the focus
-  // If Explorer is visible, close it
+  // When sidebar is visible, close it (which returns focus to editor)
   {
     "key": "oem_5",
     "command": "workbench.action.closeSidebar",
-    "when": "explorerViewletVisible"
+    "when": "workbench.sideBar.visible"
   },
-  // If Explorer is not visible, open it and focus
+  // When sidebar is not visible, open Explorer (which focuses it)
   {
     "key": "oem_5",
     "command": "workbench.view.explorer",
-    "when": "!explorerViewletVisible"
+    "when": "!workbench.sideBar.visible"
   },
+
 
   {
     "key": "down",

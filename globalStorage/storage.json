@@ -76,7 +76,7 @@
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 646,
+                "width": 656,
                 "height": 503,
                 "zoomLevel": 0
             }
@@ -357,7 +357,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1546,12 +1547,16 @@
                 "userSettingsLabel": "ctrl+v"
             },
             "actions.find": {
-                "label": "Shift+7",
-                "userSettingsLabel": "shift+7"
+                "label": "Ctrl+F",
+                "userSettingsLabel": "ctrl+f"
             },
             "editor.action.startFindReplaceAction": {
                 "label": "Ctrl+H",
                 "userSettingsLabel": "ctrl+h"
+            },
+            "workbench.action.findInFiles": {
+                "label": "Ctrl+Shift+F",
+                "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.action.replaceInFiles": {
                 "label": "Ctrl+Shift+H",
@@ -1630,12 +1635,16 @@
                 "userSettingsLabel": "ctrl+e"
             },
             "workbench.action.toggleSidebarVisibility": {
-                "label": "\\",
-                "userSettingsLabel": "oem_5"
+                "label": "Ctrl+B",
+                "userSettingsLabel": "ctrl+b"
             },
             "workbench.action.toggleAuxiliaryBar": {
                 "label": "Ctrl+Alt+B",
                 "userSettingsLabel": "ctrl+alt+b"
+            },
+            "workbench.action.togglePanel": {
+                "label": "Ctrl+J",
+                "userSettingsLabel": "ctrl+j"
             },
             "workbench.action.zoomIn": {
                 "label": "Ctrl+Shift+NumPad_Add",
@@ -1672,8 +1681,12 @@
                 "userSettingsLabel": "shift+alt+0"
             },
             "workbench.view.explorer": {
-                "label": "Ctrl+Shift+E",
-                "userSettingsLabel": "ctrl+shift+e"
+                "label": "\\",
+                "userSettingsLabel": "oem_5"
+            },
+            "workbench.view.search": {
+                "label": "Ctrl+Shift+F",
+                "userSettingsLabel": "ctrl+shift+f"
             },
             "workbench.view.scm": {
                 "label": "Ctrl+Shift+G",
