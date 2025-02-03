@@ -5,158 +5,26 @@
   //  +-+-+-+-+-+-+-+
   //  + LIGHT THEME +
   //  +-+-+-+-+-+-+-+
-  // "workbench.colorTheme": "Tokyo Night Light", // LIGHT THEME
-  // "workbench.colorCustomizations": {
-  //   // LIGHT WORKBENCH COLORS
-  //   "statusbar.debuggingbackground": "#000000",
-  //   "statusbar.debuggingforeground": "#ffffff",
-  //   "statusBar.foreground": "#ffffff",
-  //   "statusBar.border": "#000000",
-  //   "statusBar.background": "#000000",
-  //   "editor.background": "#dfdfdf",
-  //   "editor.selectionBackground": "#01d08f3c",
-  //   "statusBar.noFolderBackground": "#005f5f",
-  //   "statusBar.debuggingBackground": "#005f5f",
-  //   "statusBar.debuggingForeground": "#ffffff"
-  // },
-  // "editor.tokenColorCustomizations": {
-  //   // LIGHT TOKENS
-  //   "textMateRules": [
-  //     {
-  //       // System Blue
-  //       "scope": [
-  //         "entity.name.tag",
-  //         "support.class.component",
-  //         "support.class.component.js",
-  //         "entity.name.function.js",
-  //         "storage.type.js",
-  //         "meta.var.expr.js",
-  //         "keyword.control.flow",
-  //         "keyword.control",
-  //         "keyword.control.import",
-  //         "keyword.control.default",
-  //         "keyword.control.export",
-  //         "constant.language",
-  //         "punctuation.definition.template-expression",
-  //         "storage.type.function.js"
-  //       ],
-  //       "settings": {
-  //         "foreground": "#007bfe"
-  //       }
-  //     },
-
-  //     // Blood Red
-  //     {
-  //       "scope": ["entity.name.function.js"],
-  //       "settings": {
-  //         "foreground": "#b60202"
-  //       }
-  //     },
-
-  //     // Purple (THE PPPEOPPPLE)
-  //     {
-  //       "scope": [
-  //         "variable.parameter.js",
-  //         "meta.parameter.object-binding-pattern.js",
-  //         "meta.parameters.js",
-  //         "variable.other.property.js",
-  //         "entity.other.attribute-name"
-  //       ],
-  //       "settings": {
-  //         "foreground": "#8c01b3"
-  //       }
-  //     },
-
-  //     // Black
-  //     {
-  //       "scope": [
-  //         "variable.other.constant.js",
-  //         "meta.definition.variable.js",
-  //         "meta.var-single-variable.expr.js",
-  //         "meta.var.expr.js",
-  //         "variable.other.object.js",
-  //         "constant.numeric",
-  //         "meta.jsx punctuation.definition.tag",
-  //         "punctuation.section.embedded",
-  //         "punctuation.definition.tag"
-  //       ],
-  //       "settings": {
-  //         "foreground": "#000000"
-  //       }
-  //     },
-
-  //     // Green
-  //     {
-  //       "scope": [
-  //         "string",
-  //         "support.type.property-name.json.comments",
-  //         "string.json.comments",
-  //         "meta.structure.dictionary.json.comments",
-  //         "meta.structure.array.json.comments",
-  //         "meta.structure.dictionary.value.json.comments",
-  //         "meta.structure.dictionary.json.comments",
-  //         "meta.structure.dictionary.value.json.comments",
-  //         "meta.structure.dictionary.json.comments",
-  //         "source.json.comments",
-  //         "foreground",
-  //         "source.json",
-  //         "meta.structure.dictionary.json",
-  //         "meta.structure.dictionary.value.json",
-  //         "meta.structure.dictionary.json",
-  //         "meta.structure.dictionary.value.json",
-  //         "meta.structure.dictionary.json",
-  //         "support.type.property-name.json"
-  //       ],
-  //       "settings": {
-  //         "foreground": "#03b149"
-  //       }
-  //     }
-  //   ]
-  // },
-  // ----------------------------------------
-
-  // ----------------------------------------
-  //  +-+-+-+-+-+-+-+
-  //  + DARK THEME  +
-  //  +-+-+-+-+-+-+-+
-  "workbench.colorTheme": "Tomorrow Night Blue", // LIGHT WORKBENCH COLORS
+  "workbench.colorTheme": "Tokyo Night Light", // LIGHT THEME
   "workbench.colorCustomizations": {
-    // DARK WORKBENCH COLORS
-    "editor.background": "#0a1840",
-
-    "editor.selectionBackground": "#c1035938",
-    "statusBar.foreground": "#97c0f9",
-    "statusBar.border": "#000000",
-    "statusBar.background": "#00092b",
+    // LIGHT WORKBENCH COLORS
     "statusbar.debuggingbackground": "#000000",
     "statusbar.debuggingforeground": "#ffffff",
-    "statusBar.noFolderBackground": "#224ec8",
+    "statusBar.foreground": "#ffffff",
+    "statusBar.border": "#000000",
+    "statusBar.background": "#000000",
+    "statusBar.noFolderBackground": "#000000",
     "statusBar.debuggingBackground": "#000000",
-    "statusBar.debuggingForeground": "#000000",
-    "editorBracketPairGuide.activeBackground1": "#0e3aab",
-    "editorBracketPairGuide.activeBackground2": "#1a3791",
-    "editorBracketPairGuide.activeBackground3": "#1a3791",
-    "editorBracketPairGuide.activeBackground4": "#1a3791",
-    "editorBracketPairGuide.activeBackground5": "#1a3791",
-    "editorBracketPairGuide.activeBackground6": "#1a3791",
-    "editorBracketPairGuide.background1": "#1a3791",
-    "editorBracketPairGuide.background2": "#1a3791",
-    "editorBracketPairGuide.background3": "#1a3791",
-    "editorBracketPairGuide.background4": "#1a3791",
-    "editorBracketPairGuide.background5": "#1a3791",
-    "editorBracketPairGuide.background6": "#1a3791"
+    "editor.background": "#dfdfdf",
+    "editor.selectionBackground": "#01d08f3c",
+    "statusBar.debuggingForeground": "#ffffff"
   },
-
-  "editor.guides.bracketPairs": true,
   "editor.tokenColorCustomizations": {
-    // DARK TOKENS
+    // LIGHT TOKENS
     "textMateRules": [
-      // System Blue
       {
+        // System Blue
         "scope": [
-          "support.type.property-name.css",
-          "meta.property-name.css",
-          "meta.property-list.css",
           "entity.name.tag",
           "support.class.component",
           "support.class.component.js",
@@ -173,42 +41,21 @@
           "storage.type.function.js"
         ],
         "settings": {
-          "foreground": "#20b1ff"
-        }
-      },
-      // Blood Red
-      {
-        "scope": [
-          "entity.name.function",
-          "entity.name.function.js",
-          "meta.function-call",
-          "support.function",
-          "keyword.other.special-method"
-        ],
-        "settings": {
-          "foreground": "#cc1010"
+          "foreground": "#007bfe"
         }
       },
 
-      // Orange
+      // Blood Red
       {
-        "scope": [
-          "entity.other.attribute-name.id.css",
-          "meta.selector.css",
-          "entity.other.attribute-name.class.css",
-          "entity.other.inherited-class",
-          "entity.name.tag.css"
-        ],
+        "scope": ["entity.name.function.js"],
         "settings": {
-          "foreground": "#eba91a"
+          "foreground": "#b60202"
         }
       },
 
       // Purple (THE PPPEOPPPLE)
       {
         "scope": [
-          "support.constant.property",
-          "variable.parameter",
           "variable.parameter.js",
           "meta.parameter.object-binding-pattern.js",
           "meta.parameters.js",
@@ -216,20 +63,13 @@
           "entity.other.attribute-name"
         ],
         "settings": {
-          "foreground": "#d305f3"
+          "foreground": "#8c01b3"
         }
       },
 
-      // White
+      // Black
       {
         "scope": [
-          "keyword.other.unit.px.css",
-          "constant.numeric.css",
-          "support.constant.color",
-          "w3c-extended-color-name.css",
-          "support.constant.property-value.css",
-          "variable",
-          "support.other.variable",
           "variable.other.constant.js",
           "meta.definition.variable.js",
           "meta.var-single-variable.expr.js",
@@ -238,14 +78,10 @@
           "constant.numeric",
           "meta.jsx punctuation.definition.tag",
           "punctuation.section.embedded",
-          "punctuation.definition.tag",
-          "variable.other.readwrite.js",
-          "meta.definition.variable.js",
-          "meta.var-single-variable.expr.js",
-          "meta.var.expr.js"
+          "punctuation.definition.tag"
         ],
         "settings": {
-          "foreground": "#ffffff"
+          "foreground": "#000000"
         }
       },
 
@@ -272,11 +108,175 @@
           "support.type.property-name.json"
         ],
         "settings": {
-          "foreground": "#3ae77f"
+          "foreground": "#03b149"
         }
       }
     ]
   },
+  // ----------------------------------------
+
+  // ----------------------------------------
+  //  +-+-+-+-+-+-+-+
+  //  + DARK THEME  +
+  //  +-+-+-+-+-+-+-+
+  // "workbench.colorTheme": "Tomorrow Night Blue", // LIGHT WORKBENCH COLORS
+  // "workbench.colorCustomizations": {
+  //   // DARK WORKBENCH COLORS
+  //   "editor.background": "#0a1840",
+
+  //   "editor.selectionBackground": "#c1035938",
+  //   "statusBar.foreground": "#97c0f9",
+  //   "statusBar.border": "#000000",
+  //   "statusBar.background": "#00092b",
+  //   "statusbar.debuggingbackground": "#000000",
+  //   "statusbar.debuggingforeground": "#ffffff",
+  //   "statusBar.noFolderBackground": "#224ec8",
+  //   "statusBar.debuggingBackground": "#000000",
+  //   "statusBar.debuggingForeground": "#000000",
+  //   "editorBracketPairGuide.activeBackground1": "#0e3aab",
+  //   "editorBracketPairGuide.activeBackground2": "#1a3791",
+  //   "editorBracketPairGuide.activeBackground3": "#1a3791",
+  //   "editorBracketPairGuide.activeBackground4": "#1a3791",
+  //   "editorBracketPairGuide.activeBackground5": "#1a3791",
+  //   "editorBracketPairGuide.activeBackground6": "#1a3791",
+  //   "editorBracketPairGuide.background1": "#1a3791",
+  //   "editorBracketPairGuide.background2": "#1a3791",
+  //   "editorBracketPairGuide.background3": "#1a3791",
+  //   "editorBracketPairGuide.background4": "#1a3791",
+  //   "editorBracketPairGuide.background5": "#1a3791",
+  //   "editorBracketPairGuide.background6": "#1a3791"
+  // },
+
+  // "editor.guides.bracketPairs": true,
+  // "editor.tokenColorCustomizations": {
+  //   // DARK TOKENS
+  //   "textMateRules": [
+  //     // System Blue
+  //     {
+  //       "scope": [
+  //         "support.type.property-name.css",
+  //         "meta.property-name.css",
+  //         "meta.property-list.css",
+  //         "entity.name.tag",
+  //         "support.class.component",
+  //         "support.class.component.js",
+  //         "entity.name.function.js",
+  //         "storage.type.js",
+  //         "meta.var.expr.js",
+  //         "keyword.control.flow",
+  //         "keyword.control",
+  //         "keyword.control.import",
+  //         "keyword.control.default",
+  //         "keyword.control.export",
+  //         "constant.language",
+  //         "punctuation.definition.template-expression",
+  //         "storage.type.function.js"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#20b1ff"
+  //       }
+  //     },
+  //     // Blood Red
+  //     {
+  //       "scope": [
+  //         "entity.name.function",
+  //         "entity.name.function.js",
+  //         "meta.function-call",
+  //         "support.function",
+  //         "keyword.other.special-method"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#cc1010"
+  //       }
+  //     },
+
+  //     // Orange
+  //     {
+  //       "scope": [
+  //         "entity.other.attribute-name.id.css",
+  //         "meta.selector.css",
+  //         "entity.other.attribute-name.class.css",
+  //         "entity.other.inherited-class",
+  //         "entity.name.tag.css"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#eba91a"
+  //       }
+  //     },
+
+  //     // Purple (THE PPPEOPPPLE)
+  //     {
+  //       "scope": [
+  //         "support.constant.property",
+  //         "variable.parameter",
+  //         "variable.parameter.js",
+  //         "meta.parameter.object-binding-pattern.js",
+  //         "meta.parameters.js",
+  //         "variable.other.property.js",
+  //         "entity.other.attribute-name"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#d305f3"
+  //       }
+  //     },
+
+  //     // White
+  //     {
+  //       "scope": [
+  //         "keyword.other.unit.px.css",
+  //         "constant.numeric.css",
+  //         "support.constant.color",
+  //         "w3c-extended-color-name.css",
+  //         "support.constant.property-value.css",
+  //         "variable",
+  //         "support.other.variable",
+  //         "variable.other.constant.js",
+  //         "meta.definition.variable.js",
+  //         "meta.var-single-variable.expr.js",
+  //         "meta.var.expr.js",
+  //         "variable.other.object.js",
+  //         "constant.numeric",
+  //         "meta.jsx punctuation.definition.tag",
+  //         "punctuation.section.embedded",
+  //         "punctuation.definition.tag",
+  //         "variable.other.readwrite.js",
+  //         "meta.definition.variable.js",
+  //         "meta.var-single-variable.expr.js",
+  //         "meta.var.expr.js"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#ffffff"
+  //       }
+  //     },
+
+  //     // Green
+  //     {
+  //       "scope": [
+  //         "string",
+  //         "support.type.property-name.json.comments",
+  //         "string.json.comments",
+  //         "meta.structure.dictionary.json.comments",
+  //         "meta.structure.array.json.comments",
+  //         "meta.structure.dictionary.value.json.comments",
+  //         "meta.structure.dictionary.json.comments",
+  //         "meta.structure.dictionary.value.json.comments",
+  //         "meta.structure.dictionary.json.comments",
+  //         "source.json.comments",
+  //         "foreground",
+  //         "source.json",
+  //         "meta.structure.dictionary.json",
+  //         "meta.structure.dictionary.value.json",
+  //         "meta.structure.dictionary.json",
+  //         "meta.structure.dictionary.value.json",
+  //         "meta.structure.dictionary.json",
+  //         "support.type.property-name.json"
+  //       ],
+  //       "settings": {
+  //         "foreground": "#3ae77f"
+  //       }
+  //     }
+  //   ]
+  // },
 
   // FONT
   "editor.fontLigatures": true,
@@ -335,7 +335,7 @@
   "zenMode.hideStatusBar": false,
   "zenMode.fullScreen": false,
   "zenMode.showTabs": "none",
-  "zenMode.hideLineNumbers": false,
+  "zenMode.hideLineNumbers": true,
   "zenMode.centerLayout": false,
 
   // SOURCE CONTROL MANAGMENT
@@ -392,21 +392,23 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "telemetry.telemetryLevel": "off",
 
-  // NEOVIM CONFIG (you have to config the real init.lua of Neovim at "C:\Users\Rip\AppData\Local\nvim\init.lua")
-  // --------------------------------------------
-  // -- Use OS clipboard
-  // vim.opt.clipboard = "unnamedplus"
-  //
-  // -- Use VSCode's fold-aware cursor movements in Normal mode
-  // vim.api.nvim_set_keymap('n', 'j', '<Cmd>call VSCodeNotify("cursorDown")<CR>', { noremap = true, silent = true })
-  // vim.api.nvim_set_keymap('n', 'k', '<Cmd>call VSCodeNotify("cursorUp")<CR>', { noremap = true, silent = true })
-  //
-  // -- Folding mappings for Visual mode too
-  // vim.api.nvim_set_keymap('v', 'j', '<Cmd>call VSCodeNotify("cursorDown")<CR>', { noremap = true, silent = true })
-  // vim.api.nvim_set_keymap('v', 'k', '<Cmd>call VSCodeNotify("cursorUp")<CR>', { noremap = true, silent = true })
-
-  // -- Doing the command ":" (goto line number) with the letter "g" instead
-  // vim.api.nvim_set_keymap('n', 'g', ':', { noremap = true })
-  // --------------------------------------------
-
+  // VIM EXTENSION
+  "vim.useSystemClipboard": true,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "rgba(1, 142, 142, 0.2)",
+  "vim.highlightedyank.duration": 300,
+  "vim.foldfix": true,
+  "vim.smartRelativeLine": false,
+  "vim.autoindent": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["/"],
+      "commands": ["actions.find"]
+    },
+    // Pressing 0 in VIM normal mode moves the cursor to the first char of the line
+    {
+      "before": ["0"],
+      "after": ["^"]
+    }
+  ]
 }
