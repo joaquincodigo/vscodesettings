@@ -400,6 +400,10 @@
   "vim.foldfix": true,
   "vim.smartRelativeLine": false,
   "vim.autoindent": false,
+  "vim.handleKeys": {
+    "<C-u>": false,
+    "<C-d>": false
+  },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["/"],
