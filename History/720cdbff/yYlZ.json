@@ -393,20 +393,16 @@
   "telemetry.telemetryLevel": "off",
 
   // NEOVIM CONFIG (you have to config the real init.lua of Neovim at "C:\Users\Rip\AppData\Local\nvim\init.lua")
-  // --------------------------------------------
+  // -------------------------------
   // -- Use OS clipboard
   // vim.opt.clipboard = "unnamedplus"
-  //
   // -- Use VSCode's fold-aware cursor movements in Normal mode
   // vim.api.nvim_set_keymap('n', 'j', '<Cmd>call VSCodeNotify("cursorDown")<CR>', { noremap = true, silent = true })
   // vim.api.nvim_set_keymap('n', 'k', '<Cmd>call VSCodeNotify("cursorUp")<CR>', { noremap = true, silent = true })
-  //
-  // -- Folding mappings for Visual mode too
+  // -- Optional: Add mappings for Visual mode too
   // vim.api.nvim_set_keymap('v', 'j', '<Cmd>call VSCodeNotify("cursorDown")<CR>', { noremap = true, silent = true })
   // vim.api.nvim_set_keymap('v', 'k', '<Cmd>call VSCodeNotify("cursorUp")<CR>', { noremap = true, silent = true })
-
-  // -- Doing the command ":" (goto line number) with the letter "g" instead
-  // vim.api.nvim_set_keymap('n', 'g', ':', { noremap = true })
-  // --------------------------------------------
+  // vim.api.nvim_set_keymap('n', 'g', [[:<C-u>execute "normal! " . v:count . "G"<CR>]], { noremap = true, silent = true })
+  // -------------------------------
 
 }

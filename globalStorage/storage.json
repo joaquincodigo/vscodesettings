@@ -77,7 +77,8 @@
                 "x": 0,
                 "y": 80,
                 "width": 677,
-                "height": 451
+                "height": 451,
+                "zoomLevel": -2
             }
         },
         "openedWindows": []
@@ -1317,8 +1318,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
