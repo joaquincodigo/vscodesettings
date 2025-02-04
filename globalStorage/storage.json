@@ -44,14 +44,14 @@
     },
     "windowControlHeight": 35,
     "theme": "vs",
-    "themeBackground": "#dfdfdf",
+    "themeBackground": "#cfcece",
     "windowSplash": {
         "zoomLevel": -3,
         "baseTheme": "vs",
         "colorInfo": {
             "foreground": "#363c4d",
-            "background": "#dfdfdf",
-            "editorBackground": "#dfdfdf",
+            "background": "#cfcece",
+            "editorBackground": "#cfcece",
             "titleBarBackground": "#d6d8df",
             "activityBarBackground": "#d6d8df",
             "sideBarBackground": "#d6d8df",
@@ -75,10 +75,10 @@
             "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
             "uiState": {
                 "mode": 1,
-                "x": 758,
-                "y": 118,
-                "width": 504,
-                "height": 557,
+                "x": 752,
+                "y": 166,
+                "width": 508,
+                "height": 546,
                 "zoomLevel": -2
             }
         },
