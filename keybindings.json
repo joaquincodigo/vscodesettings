@@ -234,9 +234,20 @@
     },
     "when": "editorTextFocus && vim.mode == 'Normal' && !suggestWidgetVisible"
   },
+
+  // Ctrl + P to open files
   {
     "key": "ctrl+p",
     "command": "-extension.vim_ctrl+p",
     "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
+  },
+
+  // Macro to a string to template literal in JSX
+  {
+    "key": "ctrl+shift+b", // or any other key combination you prefer
+    "command": "editor.action.clipboardCopyAction",
+    "args": {
+      "text": "{`${} ${selectedText}`}"
+    }
   }
 ]

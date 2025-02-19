@@ -75,10 +75,10 @@
             "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
             "uiState": {
                 "mode": 1,
-                "x": 752,
-                "y": 166,
-                "width": 508,
-                "height": 546,
+                "x": 744,
+                "y": 132,
+                "width": 509,
+                "height": 538,
                 "zoomLevel": -2
             }
         },
@@ -356,8 +356,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1003,8 +1002,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1556,8 +1554,8 @@
                 "userSettingsLabel": "ctrl+x"
             },
             "editor.action.clipboardCopyAction": {
-                "label": "Ctrl+C",
-                "userSettingsLabel": "ctrl+c"
+                "label": "Ctrl+Shift+B",
+                "userSettingsLabel": "ctrl+shift+b"
             },
             "editor.action.clipboardPasteAction": {
                 "label": "Ctrl+V",
@@ -1895,10 +1893,6 @@
             "workbench.action.terminal.split": {
                 "label": "Ctrl+Shift+5",
                 "userSettingsLabel": "ctrl+shift+5"
-            },
-            "workbench.action.tasks.build": {
-                "label": "Ctrl+Shift+B",
-                "userSettingsLabel": "ctrl+shift+b"
             },
             "workbench.action.keybindingsReference": {
                 "label": "Ctrl+K Ctrl+R",

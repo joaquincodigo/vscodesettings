@@ -9,42 +9,62 @@
   "Print to Console": {
     "scope": "javascript,typescript",
     "prefix": "cs",
-    "body": ["console.log($1)"],
+    "body": [
+      "console.log($1)"
+    ],
     "description": "Log output to console"
   },
-
   "Get HTML Element by ID": {
     "scope": "javascript,typescript",
     "prefix": "gei",
-    "body": ["document.getElementById('$2')"],
+    "body": [
+      "document.getElementById('$2')"
+    ],
     "description": "Get HTML Element by ID"
   },
-
   "Console log for debugging": {
     "scope": "javascript,typescript",
     "prefix": "db",
     "body": "console.log('[DEBUG] $varName: ' + $varName)",
     "description": "Create a debug console log"
   },
-
   "Create HTML element": {
     "scope": "javascript,typescript",
     "prefix": "cr",
     "body": "document.createElement('$2')",
     "description": "Create HTML element from JS"
   },
-
   "Add event listener": {
     "scope": "javascript,typescript",
     "prefix": ".evl",
-    "body": [".addEventListener('$1', () => {", "$2", "})"],
+    "body": [
+      ".addEventListener('$1', () => {",
+      "$2",
+      "})"
+    ],
     "description": "Add an event listener to element."
   },
-
   "Insert Template Literal": {
     "scope": "javascript,typescript",
     "prefix": "templ",
-    "body": ["`${$1}`"],
+    "body": [
+      "`${$1}`"
+    ],
     "description": "Add an event listener to element."
+  },
+  "Insert Template Literal for JSX": {
+    "scope": "javascript,typescript",
+    "prefix": "backtick",
+    "body": [
+      "{`$1${}`}"
+    ],
+    "description": "Insert a JSX template literal"
+  },
+  "Insert Testing Comment": {
+    "prefix": "testing",
+    "body": [
+      "// Testing-testing-testing-testing-testing-testing-testing"
+    ],
+    "description": "Inserts a testing comment"
   }
 }
