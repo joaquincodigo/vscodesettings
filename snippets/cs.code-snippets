@@ -63,7 +63,7 @@
   "Insert Testing Comment": {
     "prefix": "testing",
     "body": [
-      "// Testing-testing-testing-testing-testing-testing-testing"
+      "// TESTING-TESTING-TESTING-TESTING-TESTING-TESTING"
     ],
     "description": "Inserts a testing comment"
   }

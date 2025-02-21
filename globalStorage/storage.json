@@ -75,9 +75,9 @@
             "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
             "uiState": {
                 "mode": 1,
-                "x": 744,
-                "y": 132,
-                "width": 509,
+                "x": 752,
+                "y": 141,
+                "width": 508,
                 "height": 538,
                 "zoomLevel": -2
             }
@@ -356,7 +356,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1002,7 +1003,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "checked": true
                     }
                 ]
             },
