@@ -1,0 +1,12 @@
+- Game over
+-- gameOver function R: halts game 
+-- gameOver screen
+---- reset button
+-------- resetGame function: resets state
+---------- initialize with state object
+------------ initiliazeState function R: newGame state
+
+- Verify colissions
+-- Verify wall colission
+-- Verify self colission
+-- Verify fruit colission

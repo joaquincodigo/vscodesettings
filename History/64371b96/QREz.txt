@@ -1,0 +1,19 @@
+# TODO ########################
+
+- Game over
+-- gameOver screen
+---- reset button
+-------- resetGame function: resets state
+---------- initialize with state object
+------------ initiliazeState function R: newGame state
+
+- Verify colissions
+-- Verify self colission
+-- Verify fruit colission
+
+Prevent fruit spawning over snake or wall
+
+
+# DONE ########################
+-- Verify wall colission 
+-- gameOver function R: halts game 

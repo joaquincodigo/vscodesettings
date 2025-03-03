@@ -28,7 +28,9 @@
             "file:///c%3A/Users/Rip/Desktop/Code/recipemanager/app": "__default__profile__",
             "file:///c%3A/code/recipemanager": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1740952718296": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "{4655DD47-3EE2-4440-925F-ACD7325F3BA8}",
@@ -37,49 +39,45 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///c%3A/code/recipemanager"
+                "folderUri": "file:///c%3A/Users/Rip/Desktop/Code/simplesnake"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1740952718296"
+            }
+        ]
     },
     "windowControlHeight": 35,
-    "theme": "vs",
-    "themeBackground": "#cfcece",
+    "theme": "vs-dark",
+    "themeBackground": "#000000",
     "windowSplash": {
         "zoomLevel": -3,
-        "baseTheme": "vs",
+        "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#363c4d",
-            "background": "#cfcece",
-            "editorBackground": "#cfcece",
-            "titleBarBackground": "#d6d8df",
-            "activityBarBackground": "#d6d8df",
-            "sideBarBackground": "#d6d8df",
+            "foreground": "#cccccc",
+            "background": "#000000",
+            "editorBackground": "#000000",
+            "titleBarBackground": "#001126",
+            "activityBarBackground": "#001733",
+            "sideBarBackground": "#001c40",
             "statusBarBackground": "#000000",
-            "statusBarNoFolderBackground": "#000000",
-            "windowBorder": "#cdced1"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
-            "activityBarWidth": 0,
-            "sideBarWidth": 0,
-            "statusBarHeight": 22,
-            "windowBorder": false
+            "statusBarBorder": "#2b3741",
+            "statusBarNoFolderBackground": "#070707"
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/code/recipemanager",
-            "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
+            "folder": "file:///c%3A/Users/Rip/Desktop/Code/simplesnake",
+            "backupPath": "C:\\Users\\Rip\\AppData\\Roaming\\Code\\Backups\\92bafbed4d52a42158bed2d76c0702a6",
             "uiState": {
-                "mode": 1,
+                "mode": 3,
+                "display": 4067114340,
+                "width": 508,
+                "height": 501,
                 "x": 752,
                 "y": 141,
-                "width": 508,
-                "height": 538,
-                "zoomLevel": -2
+                "zoomLevel": 0
             }
         },
         "openedWindows": []
@@ -99,6 +97,18 @@
                     {
                         "id": "workbench.action.newWindow",
                         "label": "New &&Window"
+                    },
+                    {
+                        "id": "submenuitem.OpenProfile",
+                        "label": "New Window with Profile",
+                        "submenu": {
+                            "items": [
+                                {
+                                    "id": "workbench.profiles.actions.createProfile",
+                                    "label": "New Profile..."
+                                }
+                            ]
+                        }
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -131,12 +141,11 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///c%3A/code/recipemanager",
-                                        "path": "/c:/code/recipemanager",
+                                        "path": "/c:/Users/Rip/Desktop/Code/simplesnake",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "C:\\code\\recipemanager"
+                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\simplesnake"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -356,8 +365,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -377,10 +385,6 @@
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
-                                },
-                                {
-                                    "id": "workbench.profiles.actions.importProfile",
-                                    "label": "Import Profile..."
                                 }
                             ]
                         }
@@ -398,47 +402,8 @@
                         "submenu": {
                             "items": [
                                 {
-                                    "id": "submenuitem.Profiles",
-                                    "label": "Profiles (Default)",
-                                    "submenu": {
-                                        "items": [
-                                            {
-                                                "id": "workbench.profiles.actions.profileEntry.__default__profile__",
-                                                "label": "Default",
-                                                "checked": true
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.showProfileContents",
-                                                "label": "Show Profile Contents"
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.createProfile",
-                                                "label": "Create Profile..."
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.deleteProfile",
-                                                "label": "Delete Profile...",
-                                                "enabled": false
-                                            },
-                                            {
-                                                "id": "vscode.menubar.separator"
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.exportProfile",
-                                                "label": "Export Profile..."
-                                            },
-                                            {
-                                                "id": "workbench.profiles.actions.importProfile",
-                                                "label": "Import Profile..."
-                                            }
-                                        ]
-                                    }
+                                    "id": "workbench.profiles.actions.manageProfiles",
+                                    "label": "&&Profiles"
                                 },
                                 {
                                     "id": "workbench.action.openSettings",
@@ -454,11 +419,11 @@
                                 },
                                 {
                                     "id": "workbench.action.openSnippets",
-                                    "label": "Configure User Snippets"
+                                    "label": "Configure Snippets"
                                 },
                                 {
                                     "id": "workbench.action.tasks.openUserTasks",
-                                    "label": "User Tasks"
+                                    "label": "Tasks"
                                 },
                                 {
                                     "id": "submenuitem.ThemesSubMenu",
@@ -679,7 +644,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.toggleFullScreen",
-                                    "label": "&&Full Screen"
+                                    "label": "&&Full Screen",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
@@ -715,6 +681,10 @@
                                     "label": "&&Panel"
                                 },
                                 {
+                                    "id": "toggle.toggleCustomTitleBar",
+                                    "label": "Custom Title Bar"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -727,13 +697,17 @@
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.activityBarLocation.side",
-                                                "label": "&&Side",
+                                                "id": "workbench.action.activityBarLocation.default",
+                                                "label": "&&Default",
                                                 "checked": true
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.top",
                                                 "label": "&&Top"
+                                            },
+                                            {
+                                                "id": "workbench.action.activityBarLocation.bottom",
+                                                "label": "&&Bottom"
                                             },
                                             {
                                                 "id": "workbench.action.activityBarLocation.hide",
@@ -748,9 +722,8 @@
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.positionPanelBottom",
-                                                "label": "Bottom",
-                                                "checked": true
+                                                "id": "workbench.action.positionPanelTop",
+                                                "label": "Top"
                                             },
                                             {
                                                 "id": "workbench.action.positionPanelLeft",
@@ -759,6 +732,11 @@
                                             {
                                                 "id": "workbench.action.positionPanelRight",
                                                 "label": "Right"
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelBottom",
+                                                "label": "Bottom",
+                                                "checked": true
                                             }
                                         ]
                                     }
@@ -839,7 +817,7 @@
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
-                                    "label": "&&Breadcrumbs"
+                                    "label": "Toggle &&Breadcrumbs"
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
@@ -983,6 +961,17 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
+                        "id": "workbench.panel.chat",
+                        "label": "&&Chat"
+                    },
+                    {
+                        "id": "workbench.panel.chatEditing",
+                        "label": "Copilot Ed&&its"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
                         "id": "workbench.actions.view.problems",
                         "label": "&&Problems"
                     },
@@ -1003,8 +992,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "checked": true
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -1416,6 +1404,10 @@
                         "label": "Show &&Release Notes"
                     },
                     {
+                        "id": "workbench.action.getStartedWithAccessibilityFeatures",
+                        "label": "Get Started with Accessibility Features"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -1675,12 +1667,12 @@
                 "userSettingsLabel": "ctrl+numpad0"
             },
             "workbench.action.splitEditorUp": {
-                "label": "Ctrl+K Ctrl+º",
+                "label": "Ctrl+K Ctrl+|",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+oem_5"
             },
             "workbench.action.splitEditorInGroup": {
-                "label": "Ctrl+K Ctrl+Shift+º",
+                "label": "Ctrl+K Ctrl+Shift+|",
                 "isNative": false,
                 "userSettingsLabel": "ctrl+k ctrl+shift+oem_5"
             },
@@ -1708,6 +1700,14 @@
             "workbench.view.debug": {
                 "label": "Ctrl+Shift+D",
                 "userSettingsLabel": "ctrl+shift+d"
+            },
+            "workbench.panel.chat": {
+                "label": "Ctrl+Alt+I",
+                "userSettingsLabel": "ctrl+alt+i"
+            },
+            "workbench.panel.chatEditing": {
+                "label": "Ctrl+Shift+I",
+                "userSettingsLabel": "ctrl+shift+i"
             },
             "workbench.actions.view.problems": {
                 "label": "Ctrl+Shift+M",

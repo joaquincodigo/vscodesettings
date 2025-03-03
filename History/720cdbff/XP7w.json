@@ -303,7 +303,7 @@
   "editor.formatOnSave": false,
   "editor.lineNumbers": "on",
   "editor.cursorBlinking": "solid",
-  "editor.wordWrap": "off",
+  "editor.wordWrap": "on",
   "editor.stickyScroll.enabled": false,
   "editor.guides.highlightActiveIndentation": "always",
   "editor.smoothScrolling": false,

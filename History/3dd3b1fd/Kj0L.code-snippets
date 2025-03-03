@@ -63,12 +63,11 @@
   "Insert Testing Comment": {
     "prefix": "testing",
     "body": [
-      "// TESTING-TESTING-TESTING-TESTING-TESTING-TESTING",
-      "$TM_SELECTED_TEXT",
       "// TESTING-TESTING-TESTING-TESTING-TESTING-TESTING"
     ],
-    "description": "Wraps selected text with a testing comment"
+    "description": "Inserts a testing comment"
   },
+
   "Loading Skeleton Placeholder": {
     "prefix": "code",
     "body": [
@@ -78,4 +77,6 @@
     ],
     "description": "Inserts a loading skeleton placeholder comment"
   }
+
+
 }

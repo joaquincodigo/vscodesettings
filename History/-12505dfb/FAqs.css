@@ -1,0 +1,44 @@
+body {
+  background-color: lightgreen;
+}
+
+#game-grid-container {
+  border-radius: 2px;
+  width: fit-content;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.cell {
+  background-color: green;
+  border: 1px solid darkgreen;
+  width: 14px;
+  height: 14px;
+}
+
+.snake {
+  background-color: black;
+}
+
+.head {
+  background-color: red;
+}
+
+.fruit {
+  background-color: violet;
+}
+
+#game-over-screen {
+  background-color: red;
+  width: calc(20 * 14px);
+  height: calc(15 * 14px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,60 @@
+body {
+  background-color: lightgreen;
+}
+
+#root {
+  border-radius: 2px;
+  width: fit-content;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+
+.cell {
+  background-color: green;
+  border: 1px solid darkgreen;
+  width: 14px;
+  height: 14px;
+}
+
+.snake {
+  background-color: black;
+}
+
+.head {
+  background-color: red;
+}
+
+.fruit {
+  background-color: violet;
+}
+
+#game-over-screen {
+  width: 318px;
+  height: 242px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  font-family: monospace;
+  color: lightgreen;
+
+  background-color: green;
+}
+
+#playagain-button {
+  background-color: green;
+  color: lightgreen;
+  border: 2px solid lightgreen;
+}
+
+#playagain-button:hover {
+  background-color: lightgreen;
+  color: green;
+}
