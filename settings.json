@@ -330,7 +330,6 @@
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.tree.enableStickyScroll": false,
   "workbench.layoutControl.enabled": false,
-  "breadcrumbs.enabled": false,
 
   // ZEN MODE
   "zenMode.hideStatusBar": false,
@@ -415,5 +414,34 @@
       "before": ["0"],
       "after": ["^"]
     }
-  ]
+  ],
+  "workbench.iconTheme": "icons",
+  "breadcrumbs.showBooleans": false,
+  "breadcrumbs.showClasses": false,
+  "breadcrumbs.showConstants": false,
+  "breadcrumbs.showConstructors": false,
+  "breadcrumbs.showEnumMembers": false,
+  "breadcrumbs.showEnums": false,
+  "breadcrumbs.showEvents": false,
+  "breadcrumbs.showFields": false,
+  "breadcrumbs.showFiles": false,
+  "breadcrumbs.showFunctions": false,
+  "breadcrumbs.showInterfaces": false,
+  "breadcrumbs.showKeys": false,
+  "breadcrumbs.showMethods": false,
+  "breadcrumbs.showModules": false,
+  "breadcrumbs.showNamespaces": false,
+  "breadcrumbs.showNull": false,
+  "notebook.breadcrumbs.showCodeCells": false,
+  "breadcrumbs.showVariables": false,
+  "breadcrumbs.showTypeParameters": false,
+  "breadcrumbs.showStructs": false,
+  "breadcrumbs.showStrings": false,
+  "breadcrumbs.showProperties": false,
+  "breadcrumbs.showPackages": false,
+  "breadcrumbs.showOperators": false,
+  "breadcrumbs.showObjects": false,
+  "breadcrumbs.showNumbers": false,
+  "breadcrumbs.showArrays": false,
+  "breadcrumbs.symbolPath": "off"
 }

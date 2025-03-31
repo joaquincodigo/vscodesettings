@@ -75,11 +75,11 @@
             "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
             "uiState": {
                 "mode": 1,
-                "x": 752,
-                "y": 141,
-                "width": 508,
-                "height": 538,
-                "zoomLevel": -2
+                "x": 277,
+                "y": 56,
+                "width": 904,
+                "height": 636,
+                "zoomLevel": -1
             }
         },
         "openedWindows": []
@@ -122,7 +122,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -839,7 +840,8 @@
                                 },
                                 {
                                     "id": "breadcrumbs.toggle",
-                                    "label": "&&Breadcrumbs"
+                                    "label": "&&Breadcrumbs",
+                                    "checked": true
                                 },
                                 {
                                     "id": "editor.action.toggleStickyScroll",
@@ -1021,7 +1023,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1090,54 +1093,45 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3",
-                                    "enabled": false
+                                    "label": "Group &&3"
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4",
-                                    "enabled": false
+                                    "label": "Group &&4"
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5",
-                                    "enabled": false
+                                    "label": "Group &&5"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group",
-                                    "enabled": false
+                                    "label": "&&Next Group"
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group",
-                                    "enabled": false
+                                    "label": "&&Previous Group"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left",
-                                    "enabled": false
+                                    "label": "Group &&Left"
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right",
-                                    "enabled": false
+                                    "label": "Group &&Right"
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above",
-                                    "enabled": false
+                                    "label": "Group &&Above"
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below",
-                                    "enabled": false
+                                    "label": "Group &&Below"
                                 }
                             ]
                         }
