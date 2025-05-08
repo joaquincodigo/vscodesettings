@@ -26,9 +26,13 @@
             "file:///c%3A/Users/Rip/Desktop/Code/playground/.git": "__default__profile__",
             "file:///c%3A/Users/Rip/Desktop/Code/simplesnake": "__default__profile__",
             "file:///c%3A/Users/Rip/Desktop/Code/recipemanager/app": "__default__profile__",
+            "file:///c%3A/Users/NI/.matplotlib": "__default__profile__",
             "file:///c%3A/code/recipemanager": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1746724410427": "__default__profile__",
+            "1746724410542": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "{4655DD47-3EE2-4440-925F-ACD7325F3BA8}",
@@ -40,7 +44,14 @@
                 "folderUri": "file:///c%3A/code/recipemanager"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1746724410427"
+            },
+            {
+                "backupFolder": "1746724410542"
+            }
+        ]
     },
     "windowControlHeight": 35,
     "theme": "vs",
@@ -63,7 +74,7 @@
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
-            "activityBarWidth": 0,
+            "activityBarWidth": 48,
             "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -75,13 +86,37 @@
             "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
             "uiState": {
                 "mode": 1,
-                "x": 736,
-                "y": 22,
-                "width": 531,
-                "height": 655
+                "x": 801,
+                "y": 28,
+                "width": 454,
+                "height": 644,
+                "zoomLevel": -2
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///c%3A/code/recipemanager",
+                "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
+                "uiState": {
+                    "mode": 1,
+                    "x": 801,
+                    "y": 28,
+                    "width": 454,
+                    "height": 644,
+                    "zoomLevel": -2
+                }
+            },
+            {
+                "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\1746724410427",
+                "uiState": {
+                    "mode": 1,
+                    "x": 115,
+                    "y": 0,
+                    "width": 1029,
+                    "height": 674
+                }
+            }
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -136,6 +171,16 @@
                                     },
                                     "enabled": true,
                                     "label": "C:\\code\\recipemanager"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/c:/Users/NI/.matplotlib",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\Users\\NI\\.matplotlib"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -216,16 +261,6 @@
                                     },
                                     "enabled": true,
                                     "label": "C:\\Users\\Rip\\Desktop\\Code\\simpletodo"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/chesspuzzles",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\chesspuzzles"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"

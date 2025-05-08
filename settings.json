@@ -393,6 +393,7 @@
   "telemetry.telemetryLevel": "off",
 
   // VIM EXTENSION
+  "vim.statusBarColorControl": false,
   "vim.useSystemClipboard": true,
   "vim.highlightedyank.enable": true,
   "vim.highlightedyank.color": "rgba(1, 142, 142, 0.2)",
@@ -413,16 +414,20 @@
     {
       "before": ["0"],
       "after": ["^"]
+    },
+    {
+      "before": ["v", "z"],
+      "after": ["v", "$"]
     }
   ],
   "workbench.iconTheme": "icons",
   "breadcrumbs.showBooleans": false,
   "breadcrumbs.showClasses": false,
-  "breadcrumbs.showConstants": false,
+  "breadcrumb.showConstants": false,
   "breadcrumbs.showConstructors": false,
   "breadcrumbs.showEnumMembers": false,
   "breadcrumbs.showEnums": false,
-  "breadcrumbs.showEvents": false,
+  "breadcrumbs.sowEents": false,
   "breadcrumbs.showFields": false,
   "breadcrumbs.showFiles": false,
   "breadcrumbs.showFunctions": false,
