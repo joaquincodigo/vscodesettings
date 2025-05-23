@@ -29,10 +29,7 @@
             "file:///c%3A/Users/NI/.matplotlib": "__default__profile__",
             "file:///c%3A/code/recipemanager": "__default__profile__"
         },
-        "emptyWindows": {
-            "1746724410427": "__default__profile__",
-            "1746724410542": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "{4655DD47-3EE2-4440-925F-ACD7325F3BA8}",
@@ -44,14 +41,7 @@
                 "folderUri": "file:///c%3A/code/recipemanager"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1746724410427"
-            },
-            {
-                "backupFolder": "1746724410542"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "theme": "vs",
@@ -74,7 +64,7 @@
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
-            "activityBarWidth": 48,
+            "activityBarWidth": 0,
             "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -86,37 +76,14 @@
             "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
             "uiState": {
                 "mode": 1,
-                "x": 801,
-                "y": 28,
-                "width": 454,
-                "height": 644,
-                "zoomLevel": -2
+                "x": 552,
+                "y": 46,
+                "width": 494,
+                "height": 616,
+                "zoomLevel": -1
             }
         },
-        "openedWindows": [
-            {
-                "folder": "file:///c%3A/code/recipemanager",
-                "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
-                "uiState": {
-                    "mode": 1,
-                    "x": 801,
-                    "y": 28,
-                    "width": 454,
-                    "height": 644,
-                    "zoomLevel": -2
-                }
-            },
-            {
-                "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\1746724410427",
-                "uiState": {
-                    "mode": 1,
-                    "x": 115,
-                    "y": 0,
-                    "width": 1029,
-                    "height": 674
-                }
-            }
-        ]
+        "openedWindows": []
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -390,7 +357,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

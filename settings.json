@@ -15,10 +15,15 @@
     "statusBar.background": "#000000",
     "statusBar.noFolderBackground": "#000000",
     "statusBar.debuggingBackground": "#000000",
+
     // "editor.background": "#dfdfdf",
     "editor.background": "#cfcece",
     "editor.selectionBackground": "#01d08f3c",
-    "statusBar.debuggingForeground": "#ffffff"
+    "statusBar.debuggingForeground": "#ffffff",
+
+    // OPEN AND CLOSING SYMBOLS HIGHLIGHT (not the color of the tokens, only the highlight)
+    "editorBracketMatch.background": "#fcabff",
+    "editorBracketMatch.border": "#000000"
   },
   "editor.tokenColorCustomizations": {
     // LIGHT TOKENS
@@ -315,6 +320,8 @@
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.defaultProfile.windows": "Command Prompt",
   "debug.terminal.clearBeforeReusing": true,
+  "terminal.integrated.gpuAcceleration": "off",
+
 
   //SCROLL BAR
   "editor.scrollbar.horizontal": "hidden",
@@ -330,6 +337,8 @@
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.tree.enableStickyScroll": false,
   "workbench.layoutControl.enabled": false,
+  "workbench.tree.indent": 8,
+
 
   // ZEN MODE
   "zenMode.hideStatusBar": false,
@@ -376,6 +385,8 @@
   // EXPLORER
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+
 
   // NODE MODULES (exclude them for increased performance)
   "files.exclude": {
@@ -448,5 +459,8 @@
   "breadcrumbs.showObjects": false,
   "breadcrumbs.showNumbers": false,
   "breadcrumbs.showArrays": false,
-  "breadcrumbs.symbolPath": "off"
+  "breadcrumbs.symbolPath": "off",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
