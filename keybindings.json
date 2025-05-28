@@ -249,5 +249,10 @@
     "args": {
       "text": "{`${} ${selectedText}`}"
     }
+  },
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "-workbench.action.files.openLocalFolder",
+    "when": "remoteFileDialogVisible"
   }
 ]

@@ -58,7 +58,6 @@
           "foreground": "#b60202"
         }
       },
-
       // Purple (THE PPPEOPPPLE)
       {
         "scope": [
@@ -119,6 +118,7 @@
       }
     ]
   },
+
   // ----------------------------------------
 
   // ----------------------------------------
@@ -322,7 +322,6 @@
   "debug.terminal.clearBeforeReusing": true,
   "terminal.integrated.gpuAcceleration": "off",
 
-
   //SCROLL BAR
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.verticalScrollbarSize": 8,
@@ -338,7 +337,6 @@
   "workbench.tree.enableStickyScroll": false,
   "workbench.layoutControl.enabled": false,
   "workbench.tree.indent": 8,
-
 
   // ZEN MODE
   "zenMode.hideStatusBar": false,
@@ -386,7 +384,6 @@
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.compactFolders": false,
-
 
   // NODE MODULES (exclude them for increased performance)
   "files.exclude": {
@@ -462,5 +459,5 @@
   "breadcrumbs.symbolPath": "off",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  }
 }
