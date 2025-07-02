@@ -66,5 +66,18 @@
       "// TESTING-TESTING-TESTING-TESTING-TESTING-TESTING"
     ],
     "description": "Inserts a testing comment"
+  },
+  "React Component Boilerplate": {
+    "prefix": "rc",
+    "body": [
+      "export default function ${1:ComponentName}() {",
+      "  return (",
+      "    <div>",
+      "      ${1}",
+      "    </div>",
+      "  );",
+      "}"
+    ],
+    "description": "React function component boilerplate"
   }
 }

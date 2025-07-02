@@ -27,7 +27,16 @@
             "file:///c%3A/Users/Rip/Desktop/Code/simplesnake": "__default__profile__",
             "file:///c%3A/Users/Rip/Desktop/Code/recipemanager/app": "__default__profile__",
             "file:///c%3A/Users/NI/.matplotlib": "__default__profile__",
-            "file:///c%3A/code/recipemanager": "__default__profile__"
+            "file:///c%3A/code/projectoecomercejap": "__default__profile__",
+            "file:///c%3A/code/deckbuilder": "__default__profile__",
+            "file:///c%3A/code/portfolio": "__default__profile__",
+            "file:///c%3A/code/nextjstutorial/devfiles": "__default__profile__",
+            "file:///c%3A/code/recipemanager": "__default__profile__",
+            "file:///c%3A/code/nextjstutorial/app": "__default__profile__",
+            "file:///c%3A/code/nextjs-parallel-routes": "__default__profile__",
+            "file:///c%3A/code/parallel-routes": "__default__profile__",
+            "file:///c%3A/code/nextjstutorial": "__default__profile__",
+            "file:///c%3A/code/rendering-demo": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -38,7 +47,7 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///c%3A/code/recipemanager"
+                "folderUri": "file:///c%3A/code/rendering-demo"
             }
         ],
         "emptyWindows": []
@@ -64,22 +73,22 @@
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
-            "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "activityBarWidth": 0,
+            "sideBarWidth": 261,
             "statusBarHeight": 22,
             "windowBorder": false
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/code/recipemanager",
-            "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\cd210f5680cc983a4839f8a34ecaaa0f",
+            "folder": "file:///c%3A/code/rendering-demo",
+            "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\61e32ca9e87349bbe0784f04c85a6f6c",
             "uiState": {
                 "mode": 1,
-                "x": 652,
-                "y": 56,
-                "width": 584,
-                "height": 614,
+                "x": 194,
+                "y": 70,
+                "width": 459,
+                "height": 610,
                 "zoomLevel": -1
             }
         },
@@ -132,6 +141,61 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///c%3A/code/rendering-demo",
+                                        "path": "/c:/code/rendering-demo",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\code\\rendering-demo"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/code/nextjstutorial",
+                                        "path": "/c:/code/nextjstutorial",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\code\\nextjstutorial"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/code/parallel-routes",
+                                        "path": "/c:/code/parallel-routes",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\code\\parallel-routes"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/code/nextjs-parallel-routes",
+                                        "path": "/c:/code/nextjs-parallel-routes",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\code\\nextjs-parallel-routes"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/code/nextjstutorial/app",
+                                        "path": "/c:/code/nextjstutorial/app",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\code\\nextjstutorial\\app"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///c%3A/code/recipemanager",
                                         "path": "/c:/code/recipemanager",
                                         "scheme": "file"
@@ -143,94 +207,58 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/c:/Users/NI/.matplotlib",
+                                        "external": "file:///c%3A/code/nextjstutorial/devfiles",
+                                        "path": "/c:/code/nextjstutorial/devfiles",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "C:\\Users\\NI\\.matplotlib"
+                                    "label": "C:\\code\\nextjstutorial\\devfiles"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/recipemanager/app",
+                                        "external": "file:///c%3A/code/portfolio",
+                                        "path": "/c:/code/portfolio",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\recipemanager\\app"
+                                    "label": "C:\\code\\portfolio"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code",
+                                        "external": "file:///c%3A/code/deckbuilder",
+                                        "path": "/c:/code/deckbuilder",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code"
+                                    "label": "C:\\code\\deckbuilder"
                                 },
                                 {
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/playground",
+                                        "external": "file:///c%3A/code/projectoecomercejap",
+                                        "path": "/c:/code/projectoecomercejap",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\playground"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/playground/.git",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\playground\\.git"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/leetcode",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\leetcode"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/recipemanager",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\recipemanager"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/servers-list",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\servers-list"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/simpletodo",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\simpletodo"
+                                    "label": "C:\\code\\projectoecomercejap"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "path": "/c:/Users/NI/Desktop/ServiceCreateEntry.xhtml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\Users\\NI\\Desktop\\ServiceCreateEntry.xhtml"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -349,13 +377,11 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
@@ -498,13 +524,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -553,13 +577,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -690,7 +712,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
-                                    "label": "Zen Mode"
+                                    "label": "Zen Mode",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleCenteredLayout",
@@ -705,7 +728,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -795,22 +819,22 @@
                                     }
                                 },
                                 {
-                                    "id": "submenuitem.EditorTabsBarShowTabsSubmenu",
+                                    "id": "submenuitem.EditorTabsBarShowTabsZenModeSubmenu",
                                     "label": "Tab Bar",
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.showMultipleEditorTabs",
-                                                "label": "Multiple Tabs",
-                                                "checked": true
+                                                "id": "workbench.action.zenShowMultipleEditorTabs",
+                                                "label": "Multiple Tabs"
                                             },
                                             {
-                                                "id": "workbench.action.showEditorTab",
+                                                "id": "workbench.action.zenShowEditorTab",
                                                 "label": "Single Tab"
                                             },
                                             {
-                                                "id": "workbench.action.hideEditorTabs",
-                                                "label": "Hidden"
+                                                "id": "workbench.action.zenHideEditorTabs",
+                                                "label": "Hidden",
+                                                "checked": true
                                             }
                                         ]
                                     }
@@ -1011,7 +1035,7 @@
                     {
                         "id": "editor.action.toggleWordWrap",
                         "label": "&&Word Wrap",
-                        "enabled": false
+                        "checked": true
                     }
                 ]
             },
@@ -1701,8 +1725,8 @@
                 "userSettingsLabel": "shift+alt+0"
             },
             "workbench.view.explorer": {
-                "label": "\\",
-                "userSettingsLabel": "oem_5"
+                "label": "Ctrl+Shift+E",
+                "userSettingsLabel": "ctrl+shift+e"
             },
             "workbench.view.search": {
                 "label": "Ctrl+Shift+F",

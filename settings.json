@@ -424,7 +424,7 @@
       "after": ["^"]
     },
     {
-      "before": ["v", "z"],
+      "before": ["v", "f"],
       "after": ["v", "$"]
     }
   ],
@@ -458,6 +458,12 @@
   "breadcrumbs.showArrays": false,
   "breadcrumbs.symbolPath": "off",
   "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   }
 }

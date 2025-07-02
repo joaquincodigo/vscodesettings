@@ -250,9 +250,22 @@
       "text": "{`${} ${selectedText}`}"
     }
   },
+  // Open folder
   {
     "key": "ctrl+k ctrl+o",
     "command": "-workbench.action.files.openLocalFolder",
     "when": "remoteFileDialogVisible"
+  }, 
+  // Open folder
+  {
+    "key": "ctrl+k ctrl+o",
+    "command": "workbench.action.files.openFolderViaWorkspace",
+    "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
+  },
+  // Open folder
+  {
+    "key": "ctrl+o",
+    "command": "-workbench.action.files.openFolderViaWorkspace",
+    "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'"
   }
 ]
