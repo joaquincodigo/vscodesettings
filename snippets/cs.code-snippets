@@ -79,5 +79,19 @@
       "}"
     ],
     "description": "React function component boilerplate"
+  },
+  "Insert styles className": {
+    "prefix": "sty",
+    "body": "className={styles.${1}}",
+    "description": "Insert className={styles...}"
+  },
+  "styob snippet": {
+    "prefix": "styob",
+    "body": [
+      "const styles = {",
+      "  $1: \"$2\"",
+      "}"
+    ],
+    "description": "Insert styles object with editable key and value"
   }
 }

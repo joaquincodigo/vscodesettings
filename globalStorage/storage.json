@@ -28,7 +28,6 @@
             "file:///c%3A/Users/Rip/Desktop/Code/recipemanager/app": "__default__profile__",
             "file:///c%3A/Users/NI/.matplotlib": "__default__profile__",
             "file:///c%3A/code/projectoecomercejap": "__default__profile__",
-            "file:///c%3A/code/deckbuilder": "__default__profile__",
             "file:///c%3A/code/portfolio": "__default__profile__",
             "file:///c%3A/code/nextjstutorial/devfiles": "__default__profile__",
             "file:///c%3A/code/recipemanager": "__default__profile__",
@@ -37,11 +36,10 @@
             "file:///c%3A/code/parallel-routes": "__default__profile__",
             "file:///c%3A/code/nextjstutorial": "__default__profile__",
             "file:///c%3A/code/rendering-demo": "__default__profile__",
-            "file:///c%3A/code/data-fetchng-demo": "__default__profile__"
+            "file:///c%3A/code/data-fetchng-demo": "__default__profile__",
+            "file:///c%3A/code/deckbuilder": "__default__profile__"
         },
-        "emptyWindows": {
-            "1751558353729": "__default__profile__"
-        }
+        "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.sqmId": "{4655DD47-3EE2-4440-925F-ACD7325F3BA8}",
@@ -50,17 +48,10 @@
         "workspaces": [],
         "folders": [
             {
-                "folderUri": "file:///c%3A/code/rendering-demo"
-            },
-            {
-                "folderUri": "file:///c%3A/code/data-fetchng-demo"
+                "folderUri": "file:///c%3A/code/deckbuilder"
             }
         ],
-        "emptyWindows": [
-            {
-                "backupFolder": "1751558353729"
-            }
-        ]
+        "emptyWindows": []
     },
     "windowControlHeight": 35,
     "theme": "vs",
@@ -91,15 +82,15 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///c%3A/code/data-fetchng-demo",
-            "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\e7c6a53675e2c8ced6c539f0228e3ea0",
+            "folder": "file:///c%3A/code/deckbuilder",
+            "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\6871aabbc0e707eebea09c5a38d347c1",
             "uiState": {
                 "mode": 1,
-                "x": 275,
-                "y": 167,
-                "width": 484,
-                "height": 506,
-                "zoomLevel": -1
+                "x": 260,
+                "y": 152,
+                "width": 544,
+                "height": 518,
+                "zoomLevel": -2
             }
         },
         "openedWindows": []
@@ -146,6 +137,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///c%3A/code/deckbuilder",
+                                        "path": "/c:/code/deckbuilder",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\code\\deckbuilder"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -247,18 +249,17 @@
                                     "label": "C:\\code\\portfolio"
                                 },
                                 {
-                                    "id": "openRecentFolder",
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///c%3A/code/deckbuilder",
-                                        "path": "/c:/code/deckbuilder",
+                                        "path": "/c:/code/deckbuilder/app/components/all-cards-screen/AllCardsScreen.jsx",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "C:\\code\\deckbuilder"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
+                                    "label": "C:\\code\\deckbuilder\\app\\components\\all-cards-screen\\AllCardsScreen.jsx"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -395,8 +396,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -406,6 +406,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -1374,8 +1381,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
