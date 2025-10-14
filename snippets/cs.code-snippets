@@ -93,5 +93,14 @@
       "}"
     ],
     "description": "Insert styles object with editable key and value"
+  },
+  "useEffect Hook": {
+    "prefix": "useeffect",
+    "body": [
+      "useEffect(() => {",
+      "  $0",
+      "}, []);"
+    ],
+    "description": "Insert a React useEffect hook"
   }
 }
