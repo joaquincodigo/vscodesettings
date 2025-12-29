@@ -67,18 +67,24 @@
     ],
     "description": "Inserts a testing comment"
   },
-  "React Component Boilerplate": {
+  "React Component": {
     "prefix": "rc",
     "body": [
       "export default function ${1:ComponentName}() {",
+      "",
+      "  const styles = {",
+      "    ${1:ComponentName}: \"bg-pink-300\"",
+      "  }",
+      "",
       "  return (",
-      "    <div>",
-      "      ${1}",
+      "    <div data-component=\"${1:ComponentName}\" className={styles.${1:ComponentName}}>",
+      "      I am ${1:ComponentName} content",
       "    </div>",
       "  );",
+      "",
       "}"
     ],
-    "description": "React function component boilerplate"
+    "description": "Create a React component boilerplate"
   },
   "Insert styles className": {
     "prefix": "sty",

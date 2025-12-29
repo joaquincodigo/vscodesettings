@@ -74,8 +74,8 @@
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
-            "activityBarWidth": 0,
-            "sideBarWidth": 0,
+            "activityBarWidth": 48,
+            "sideBarWidth": 181,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -85,12 +85,12 @@
             "folder": "file:///c%3A/code/deckbuilder",
             "backupPath": "C:\\Users\\NI\\AppData\\Roaming\\Code\\Backups\\6871aabbc0e707eebea09c5a38d347c1",
             "uiState": {
-                "mode": 1,
-                "x": 339,
-                "y": 128,
-                "width": 665,
-                "height": 528,
-                "zoomLevel": -2
+                "mode": 0,
+                "x": 122,
+                "y": 52,
+                "width": 650,
+                "height": 632,
+                "zoomLevel": -1
             }
         },
         "openedWindows": []
@@ -133,7 +133,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -255,6 +256,16 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
+                                        "path": "/c:/code/FCG_Forger/card-constructor/CardConstructor.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "C:\\code\\FCG_Forger\\card-constructor\\CardConstructor.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
                                         "path": "/c:/code/deckbuilder/app/components/all-cards-screen/AllCardsScreen.jsx",
                                         "scheme": "file"
                                     },
@@ -342,16 +353,6 @@
                                     "label": "C:\\Users\\Rip\\Downloads\\Weird Game\\chromium-bsu-0.9.16.1\\src\\Audio.cpp"
                                 },
                                 {
-                                    "id": "openRecentFile",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "path": "/c:/Users/Rip/Desktop/Code/portfolio/pokemon-search/package.json",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "C:\\Users\\Rip\\Desktop\\Code\\portfolio\\pokemon-search\\package.json"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
@@ -396,7 +397,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -722,8 +724,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
-                                    "label": "Zen Mode",
-                                    "checked": true
+                                    "label": "Zen Mode"
                                 },
                                 {
                                     "id": "workbench.action.toggleCenteredLayout",
@@ -738,7 +739,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -828,22 +830,22 @@
                                     }
                                 },
                                 {
-                                    "id": "submenuitem.EditorTabsBarShowTabsZenModeSubmenu",
+                                    "id": "submenuitem.EditorTabsBarShowTabsSubmenu",
                                     "label": "Tab Bar",
                                     "submenu": {
                                         "items": [
                                             {
-                                                "id": "workbench.action.zenShowMultipleEditorTabs",
-                                                "label": "Multiple Tabs"
+                                                "id": "workbench.action.showMultipleEditorTabs",
+                                                "label": "Multiple Tabs",
+                                                "checked": true
                                             },
                                             {
-                                                "id": "workbench.action.zenShowEditorTab",
+                                                "id": "workbench.action.showEditorTab",
                                                 "label": "Single Tab"
                                             },
                                             {
-                                                "id": "workbench.action.zenHideEditorTabs",
-                                                "label": "Hidden",
-                                                "checked": true
+                                                "id": "workbench.action.hideEditorTabs",
+                                                "label": "Hidden"
                                             }
                                         ]
                                     }
@@ -1052,7 +1054,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -1061,7 +1064,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
